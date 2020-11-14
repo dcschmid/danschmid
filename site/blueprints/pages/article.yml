@@ -33,6 +33,7 @@ columns:
             default: now
           author:
             type: users
+            multiple: false
           tags:
             type: tags
           related:

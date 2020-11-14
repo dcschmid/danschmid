@@ -1,0 +1,11 @@
+title: Author
+fields:
+  bio:
+    label: Bio
+    type: textarea
+  twitter:
+    label : Twitter account
+    type: text
+  github:
+    label : Github account
+    type: text
