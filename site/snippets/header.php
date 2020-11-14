@@ -1,6 +1,7 @@
 <html>
   <head>
     <title><?= $site->title() ?></title>
+    <?php echo mix('/css/main.css') ?>
   </head>
   <body>
     <header>

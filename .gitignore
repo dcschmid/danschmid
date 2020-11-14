@@ -48,3 +48,6 @@ vendor
 node_modules
 
 content
+assets/js
+assets/css
+assets/mix-manifest.json
