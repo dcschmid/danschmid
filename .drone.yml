@@ -47,7 +47,7 @@ type: docker
 name: ci/release
 steps:
 - name: auto-release
-  image: xena/gitea-release
+  image: xena/gitea-release:0.2.5
   settings:
     auth_username: daniel
     changelog_path: ./CHANGELOG.md
