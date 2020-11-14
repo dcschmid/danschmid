@@ -16,6 +16,29 @@
 
   </article>
 
+  <?php if($author = $page->author()->toUser()): ?>
+    <aside class="author">
+
+      <h1><?= $author->name() ?></h1>
+
+      <?php if($avatar = $author->avatar()): ?>
+        <figure>
+          <img src="<?= $avatar->url() ?>">
+        </figure>
+      <?php endif ?>
+
+      <?= $author->bio()->kirbytext() ?>
+
+      <h2>On the web:</h2>
+
+      <ul>
+        <li><a href="<?= $author->github() ?>">Github</a></li>
+        <li><a href="<?= $author->twitter() ?>">Twitter</a></li>
+      </ul>
+
+    </aside>
+  <?php endif ?>
+
   <?php if ($page->hasPrev()): ?>
     <a href="<?= $page->prev()->url() ?>">previous page</a>
   <?php endif ?>
