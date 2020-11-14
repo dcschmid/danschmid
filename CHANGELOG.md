@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://git.danschmid.de///compare/v0.1.0...v0.2.1) (2020-11-14)
+
+
+### Features
+
+* add admin blueprint ([0370ef8](https://git.danschmid.de///commit/0370ef8562ab0b733c76945528165baae0c4b23c))
+* add kirby editor ([8e63950](https://git.danschmid.de///commit/8e63950a899a470f194506f878d581156ba95185))
+* add versionrc file ([d6ddf97](https://git.danschmid.de///commit/d6ddf97b3dab076752e00d02c0a65fdc0fec3394))
+
 ### [0.0.1](https://git.danschmid.de///compare/v0.0.0...v0.0.1) (2020-11-14)
 
 ## 0.0.0 (2020-11-14)
