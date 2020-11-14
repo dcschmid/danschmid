@@ -1,3 +1,42 @@
 title: Site
-preset: pages
-unlisted: true
+tabs:
+  content:
+    label: Pages
+    icon: text
+    sections:
+      mypagetable:
+        headline: Pages
+        type: pagetable
+        status: all
+        limitOptions:
+          - 10
+          - 25
+          - 50
+  menus:
+    label: Menus
+    icon: menu
+    sections:
+      fields:
+        type: fields
+        fields:
+          nestedMenu:
+            type: structure
+            label: Nested menu
+            fields:
+              menufields: fields/menufields
+              hasSubmenu:
+                type: toggle
+                text: Add a submenu?
+              submenu:
+                type: structure
+                label: Second Level Items
+                when:
+                  hasSubmenu: true
+                fields:
+                  menufields: fields/menufields
+          footermenu:
+            type: structure
+            fields:
+              menuItems:
+                type: pages
+                label: Menu item

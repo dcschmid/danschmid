@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
+<?php snippet('mainnav') ?>
 
 <section class="content article">
   <article>
