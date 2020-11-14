@@ -18,8 +18,8 @@ columns:
     width: 2/3
     fields:
       text:
-        type: textarea
-        size: large
+        label: Editor
+        type: editor
 
   sidebar:
     width: 1/3

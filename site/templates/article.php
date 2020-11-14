@@ -5,7 +5,7 @@
   <article>
     <h1><?= $page->title()->html() ?></h1>
     <?= $page->intro()->kirbytext() ?>
-    <?= $page->text()->kirbytext() ?>
+    <?= $page->text()->blocks() ?>
 
      <time datetime="<?= $page->published()->toDate('c') ?>" pubdate="pubdate">
       <?= $page->published()->toDate('d.m.Y H:i') ?>
