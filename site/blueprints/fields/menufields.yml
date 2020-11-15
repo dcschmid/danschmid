@@ -6,9 +6,6 @@ fields:
   linkTitle:
     type: text
     label: Link title
-  svgIcon:
-    type: text
-    label: SVG Icon
   pageLink:
     label: Page link
     type: pages

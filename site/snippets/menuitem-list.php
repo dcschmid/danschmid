@@ -10,9 +10,6 @@
     <?php if ($pageLink = $item->pageLink()->toPage()) : ?>
       <li class="nav__item">
         <a class="nav__link" href="<?= $pageLink->url() ?>">
-          <svg class="icon <?= $item->svgIcon() ?>">
-            <use xlink:href="#<?= $item->svgIcon() ?>"></use>
-          </svg>
           <span><?= $item->itemTitle()->or($pageLink->title()) ?></span>
         </a>
     <?php elseif ($item->externalLink()->isNotEmpty()) : ?>
