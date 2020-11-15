@@ -13,7 +13,15 @@
 
 
     <a href="<?= url('blog') ?>">Back…</a>
-
+    <ul class="tags">
+      <?php foreach($page->tags() as $tag): ?>
+        <li>
+          <a href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
+            <?= html($tag) ?>
+          </a>
+        </li>
+      <?php endforeach ?>
+    </ul>
   </article>
 
   <?php if($author = $page->author()->toUser()): ?>

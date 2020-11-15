@@ -1,9 +1,9 @@
 <?php
 
-return function($page, $tag) {
+return function($page) {
 
   // fetch the basic set of pages
-  $articles = $page->children()->listed()->flip()->paginate(10);
+  $articles = $page->children()->listed()->flip();
 
   // fetch all tags
   $tags = $articles->pluck('tags', ',', true);
@@ -17,6 +17,6 @@ return function($page, $tag) {
   $articles   = $articles->paginate(10);
   $pagination = $articles->pagination();
 
-  return compact('articles', 'tags', 'pagination');
+  return compact('articles', 'tags', 'tag', 'pagination');
 
 };
