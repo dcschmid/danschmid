@@ -1,3 +1,37 @@
+# [0.3.0](https://git.danschmid.de/dcschmid/danschmid/compare/v0.2.0...v0.3.0) (2020-11-14)
+
+
+### Bug Fixes
+
+* better tag handling ([2b9ebd0](https://git.danschmid.de/dcschmid/danschmid/commits/2b9ebd0b0f6f1114ab832619fa170fe9a20f5831))
+
+
+### Features
+
+* add author to article ([8ce68c2](https://git.danschmid.de/dcschmid/danschmid/commits/8ce68c2453a783d6822f32b7a2c1b01971c0e23d))
+* add conventional changelog cli ([fa25239](https://git.danschmid.de/dcschmid/danschmid/commits/fa252397193823bc7bd761d735682ca30f4f63df))
+* add conventional changelog cli ([15b0294](https://git.danschmid.de/dcschmid/danschmid/commits/15b0294bbe9b39a201c486829ab82ca2490288a6))
+* add menu blueprint and layout ([65373e4](https://git.danschmid.de/dcschmid/danschmid/commits/65373e43211923416e3ec3fa6ed4cfc36b0b8030))
+
+
+
+## [0.2.1](https://git.danschmid.de/dcschmid/danschmid/compare/v0.2.0...v0.2.1) (2020-11-14)
+
+
+### Bug Fixes
+
+* better tag handling ([2b9ebd0](https://git.danschmid.de/dcschmid/danschmid/commits/2b9ebd0b0f6f1114ab832619fa170fe9a20f5831))
+
+
+### Features
+
+* add author to article ([8ce68c2](https://git.danschmid.de/dcschmid/danschmid/commits/8ce68c2453a783d6822f32b7a2c1b01971c0e23d))
+* add conventional changelog cli ([fa25239](https://git.danschmid.de/dcschmid/danschmid/commits/fa252397193823bc7bd761d735682ca30f4f63df))
+* add conventional changelog cli ([15b0294](https://git.danschmid.de/dcschmid/danschmid/commits/15b0294bbe9b39a201c486829ab82ca2490288a6))
+* add menu blueprint and layout ([65373e4](https://git.danschmid.de/dcschmid/danschmid/commits/65373e43211923416e3ec3fa6ed4cfc36b0b8030))
+
+
+
 ## [0.2.1](https://git.danschmid.de/dcschmid/danschmid/compare/v0.2.0...v0.2.1) (2020-11-14)
 
 
