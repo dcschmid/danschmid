@@ -1,0 +1,22 @@
+type: group
+fields:
+  isExternal:
+    type: toggle
+    label: External link?
+  linkTitle:
+    type: text
+    label: Link title
+  svgIcon:
+    type: text
+    label: SVG Icon
+  pageLink:
+    label: Page link
+    type: pages
+    max: 1
+    when:
+      isExternal: false
+  externalLink:
+    type: url
+    label: External link
+    when:
+      isExternal: true

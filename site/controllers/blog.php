@@ -1,6 +1,6 @@
 <?php
 
-return function($page) {
+return function($page, $tag) {
 
   // fetch the basic set of pages
   $articles = $page->children()->listed()->flip()->paginate(10);
@@ -17,6 +17,6 @@ return function($page) {
   $articles   = $articles->paginate(10);
   $pagination = $articles->pagination();
 
-  return compact('articles', 'tags', 'tag', 'pagination');
+  return compact('articles', 'tags', 'pagination');
 
 };
