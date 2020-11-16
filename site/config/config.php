@@ -3,4 +3,5 @@ return [
     'install' => true,
     'debug'  => true,
     'home' => 'blog',
+    'languages' => true,
 ];
