@@ -10,4 +10,9 @@ return [
     'sylvainjule.matomo.active'         => true,
     'sylvainjule.matomo.trackUsers'     => false,
     'sylvainjule.matomo.disableCookies' => true,
+    'thumbs' => [
+        'srcsets' => [
+            'default' => [320, 576, 768, 992, 1200]
+        ],
+    ],
 ];
