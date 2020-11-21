@@ -39,4 +39,9 @@ columns:
           related:
             label: Related articles
             type: pages
-            query: page.siblings(false)i
+            query: page.siblings(false)
+          files:
+            type: files
+            headline: Files
+
+
