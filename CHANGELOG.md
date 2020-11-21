@@ -1,3 +1,19 @@
+# [0.4.0](https://git.danschmid.de/dcschmid/danschmid/compare/v0.3.0...v0.4.0) (2020-11-21)
+
+
+### Bug Fixes
+
+* improve menu ([8d4e87c](https://git.danschmid.de/dcschmid/danschmid/commits/8d4e87c510f4f8bb599e70cb928ef4aa5b9070d0))
+* right tag behavior ([6713c15](https://git.danschmid.de/dcschmid/danschmid/commits/6713c15f28c5519fe4f390cec16b3e79d27803b5))
+
+
+### Features
+
+* add matomo tracking ([bfaba2f](https://git.danschmid.de/dcschmid/danschmid/commits/bfaba2f48e4f066381eb82a15a1ba1aeea3946cb))
+* add multilanguage ([585f4f4](https://git.danschmid.de/dcschmid/danschmid/commits/585f4f465dab105e0ff527723c26b861a5befd64))
+
+
+
 # [0.3.0](https://git.danschmid.de/dcschmid/danschmid/compare/v0.2.0...v0.3.0) (2020-11-14)
 
 
