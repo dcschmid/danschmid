@@ -22,7 +22,8 @@
         "getkirby/cms": "^3.0",
         "diverently/laravel-mix-kirby": "^1.4",
         "getkirby/editor": "^1.0",
-        "sylvainjule/pagetable": "^1.0"
+        "sylvainjule/pagetable": "^1.0",
+        "sylvainjule/matomo": "^1.0"
     },
     "config": {
         "optimize-autoloader": true

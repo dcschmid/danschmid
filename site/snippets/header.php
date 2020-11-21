@@ -1,7 +1,8 @@
-<html>
+<html lang="<?= $kirby->language() ?>">
   <head>
     <title><?= $site->title() ?></title>
     <?php echo mix('/css/main.css') ?>
+    <?php snippet('matomo'); ?>
   </head>
   <body>
     <header>

@@ -1,9 +1,11 @@
 <?php
 
-return function($page, $tag) {
+return function($page) {
 
   // fetch the basic set of pages
-  $articles = $page->children()->listed()->flip()->paginate(10);
+  $articles = page('blog')->children()->listed()->flip()->filter(function ($child) {
+    return $child->content(kirby()->language()->code())->text()->isNotEmpty();
+  })->paginate(10);
 
   // fetch all tags
   $tags = $articles->pluck('tags', ',', true);
@@ -14,9 +16,7 @@ return function($page, $tag) {
   }
 
   // apply pagination
-  $articles   = $articles->paginate(10);
   $pagination = $articles->pagination();
 
-  return compact('articles', 'tags', 'pagination');
-
+  return compact('articles', 'tags', 'tag', 'pagination');
 };
