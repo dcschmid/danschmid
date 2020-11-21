@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fe6a33dec8e4caeeb39b8d067a6b235",
+    "content-hash": "804ac8b0915a674a8a1462912ba87ab4",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -751,6 +751,40 @@
                 "psr-3"
             ],
             "time": "2020-03-23T09:12:05+00:00"
+        },
+        {
+            "name": "sylvainjule/matomo",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sylvainjule/kirby-matomo.git",
+                "reference": "3c82ffda22f3622fd650947abb916d97efa943fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-matomo/zipball/3c82ffda22f3622fd650947abb916d97efa943fb",
+                "reference": "3c82ffda22f3622fd650947abb916d97efa943fb",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "matomo"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sylvain Julé",
+                    "email": "contact@sylvain-jule.fr"
+                }
+            ],
+            "description": "Matomo helpers and panel sections for Kirby",
+            "time": "2020-04-10T13:25:27+00:00"
         },
         {
             "name": "sylvainjule/pagetable",
