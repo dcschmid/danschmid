@@ -27,6 +27,7 @@ return [
         [
             'pattern' => 'feed',
             'method' => 'GET',
+            'language' => '*',
             'action'  => function () {
                 $options = [
                     'title'       => 'Latest articles from danschmid',
