@@ -1,3 +1,24 @@
+# [0.5.0](https://git.danschmid.de/dcschmid/danschmid/compare/v0.4.0...v0.5.0) (2020-11-22)
+
+
+### Bug Fixes
+
+* multilanguage rss ([ab4a32d](https://git.danschmid.de/dcschmid/danschmid/commits/ab4a32d3b168e94e1ece44a239ca6ab532ed7a6a))
+
+
+### Features
+
+* add autopublishes ([b4b80f4](https://git.danschmid.de/dcschmid/danschmid/commits/b4b80f40371fcb6e0449d86cf83ea16d9074deb5))
+* add commentions ([fc92e7d](https://git.danschmid.de/dcschmid/danschmid/commits/fc92e7d45fce8b841b2d44f5e3a395a76e1abbaa))
+* add file blueprint ([c431e67](https://git.danschmid.de/dcschmid/danschmid/commits/c431e671b01fb34b38fbe3c3f1bfb0c19fdc0295))
+* add kirby feed ([5b92cb0](https://git.danschmid.de/dcschmid/danschmid/commits/5b92cb0d1f4238c0ba46cf526269b01dd2918b7d))
+* add kirby minify ([f8035f3](https://git.danschmid.de/dcschmid/danschmid/commits/f8035f333850eaca7abbb851e463b98bbfa71f69))
+* add seo blueprint and add meta tags ([442c84c](https://git.danschmid.de/dcschmid/danschmid/commits/442c84ca7ba37b276d577ffdba22531b5d06373d))
+* add sitemaper ([e8fb08f](https://git.danschmid.de/dcschmid/danschmid/commits/e8fb08fc3ed0764edd24bbd9d75cf58856e6c5ab))
+* add srcset images ([427e4f5](https://git.danschmid.de/dcschmid/danschmid/commits/427e4f5dd7ee7ebe7ac23a6dbb93fcf7b2dff5c9))
+
+
+
 # [0.4.0](https://git.danschmid.de/dcschmid/danschmid/compare/v0.3.0...v0.4.0) (2020-11-21)
 
 
