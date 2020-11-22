@@ -51,3 +51,9 @@ tabs:
         sections:
           sidebar:
             type: matomo-sidebar
+  commentions:
+    sections:
+      commentions:
+        type: commentions
+        show: pending
+

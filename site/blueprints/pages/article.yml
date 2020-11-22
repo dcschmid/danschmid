@@ -83,4 +83,7 @@ tabs:
             defaultTitle:        page.title             # query (e.g: page.myCustomSeoTitle)
             descriptionField:    metadescription        # field key reference
             defaultDescription:  page.text.blocks.html  # query (e.g: page.text.blocks.html when using the editor)
-
+  commentions:
+    sections:
+      commentions:
+        type: commentions

@@ -47,6 +47,13 @@
     </aside>
   <?php endif ?>
 
+  <?php
+    // in a page template or snippet
+    commentions();
+  ?>
+
+
+
   <?php if ($page->hasPrev()): ?>
     <a href="<?= $page->prev()->url() ?>">previous page</a>
   <?php endif ?>

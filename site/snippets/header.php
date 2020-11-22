@@ -4,6 +4,11 @@
     <?= $page->headLinkAlternates(); ?>
     <?= mix('/css/main.css') ?>
     <?= snippet('matomo'); ?>
+    <?php
+      commentions('css');
+      // within the <head> tags of a template or snippet
+      commentions('endpoints');
+    ?>
   </head>
   <body>
     <header>

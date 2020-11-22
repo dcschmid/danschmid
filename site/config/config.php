@@ -10,6 +10,9 @@ return [
     'sylvainjule.matomo.active'         => true,
     'sylvainjule.matomo.trackUsers'     => false,
     'sylvainjule.matomo.disableCookies' => true,
+    'sgkirby.commentions.templatesWithComments' => ['article'],
+    'sgkirby.commentions.templatesWithWebmentions' => ['article'],
+    'sgkirby.commentions.secret' => 'Commentions2020',
     'thumbs' => [
         'srcsets' => [
             'default' => [320, 576, 768, 992, 1200]
