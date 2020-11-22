@@ -10,6 +10,11 @@ return [
     'sylvainjule.matomo.active'         => true,
     'sylvainjule.matomo.trackUsers'     => false,
     'sylvainjule.matomo.disableCookies' => true,
+    'afbora.kirby-minify-html.enabled' => true,
+    'afbora.kirby-minify-html.options' => [
+        'doOptimizeViaHtmlDomParser' => true, // set true/false or remove line to default
+        'doRemoveSpacesBetweenTags'  => false // set true/false or remove line to default
+    ],
     'sgkirby.commentions.templatesWithComments' => ['article'],
     'sgkirby.commentions.templatesWithWebmentions' => ['article'],
     'sgkirby.commentions.secret' => 'Commentions2020',
