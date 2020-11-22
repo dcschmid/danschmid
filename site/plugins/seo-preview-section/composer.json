@@ -1,0 +1,18 @@
+{
+    "name": "reh/kirby-seo-preview-section",
+    "description": "Configurable & interactive SEO preview section for the Kirby 3 Panel.",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "REH.vision",
+            "email": "kontakt@REH.vision"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    },
+    "extra": {
+        "installer-name": "seo-preview-section"
+    }
+}
