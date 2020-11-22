@@ -23,6 +23,21 @@ return [
             'default' => [320, 576, 768, 992, 1200]
         ],
     ],
+    'routes' => [
+        [
+            'pattern' => 'feed',
+            'method' => 'GET',
+            'action'  => function () {
+                $options = [
+                    'title'       => 'Latest articles from danschmid',
+                    'description' => 'Read the latest articles from Daniel Schmid',
+                    'link'        => 'blog',
+                ];
+                $feed = page('blog')->children()->listed()->flip()->limit(10)->feed($options);
+                return $feed;
+            }
+        ]
+    ],
     'pedroborges.meta-tags.templates' => function ($page, $site) {
         return [
             'blog' => [

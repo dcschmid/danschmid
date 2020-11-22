@@ -28,7 +28,8 @@
         "reh/kirby-seo-preview-section": "^1.0",
         "pedroborges/kirby-meta-tags": "^2.0",
         "sgkirby/commentions": "^1.0",
-        "afbora/kirby-minify-html": "^1.2"
+        "afbora/kirby-minify-html": "^1.2",
+        "bnomei/kirby3-feed": "^1.3"
     },
     "config": {
         "optimize-autoloader": true
