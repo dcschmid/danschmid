@@ -1,8 +1,42 @@
 title: Default Page
-preset: page
-fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
-
+tabs:
+  content:
+    preset: page
+    fields:
+      text:
+        label: Editor
+        type: editor
+        size: large
+  seo:
+    columns:
+      - width: 1/2
+        fields:
+          metatitle:
+            label: Meta title
+            type: text
+          metadescription:
+            label: Meta description
+            type: textarea
+          metatags:
+            label: Meta Tags
+            type: radio
+            default: indexfollow
+            options:
+              - value: index,follow
+                text: index,follow
+              - value: noindex,follow
+                text: noindex,follow
+              - value: index,nofollow
+                text: index,nofollow
+              - value: noindex,nofollow
+                text: noindex,nofollow
+      - width: 1/2
+        sections:
+          seopreview:
+            type:                seopreview
+    #       options:             defaults:
+            headline:            SEO preview
+            titleField:          metatitle              # field key reference
+            defaultTitle:        page.title             # query (e.g: page.myCustomSeoTitle)
+            descriptionField:    metadescription        # field key reference
+            defaultDescription:  page.text.blocks.html  # query (e.g: page.text.blocks.html when using the editor)
