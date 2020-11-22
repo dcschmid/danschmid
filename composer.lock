@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e9f2aed9777cf8b3ed0dcea158ee4b9",
+    "content-hash": "65a4ddfec52542d25303c3ce3ad63c04",
     "packages": [
         {
             "name": "afbora/kirby-minify-html",
@@ -185,6 +185,46 @@
             "time": "2020-08-16T21:43:17+00:00"
         },
         {
+            "name": "bvdputte/kirby-autopublish",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bvdputte/kirby-autopublish.git",
+                "reference": "c4a667294a8eb753dba9ee0ade2c655ed3acb47d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bvdputte/kirby-autopublish/zipball/c4a667294a8eb753dba9ee0ade2c655ed3acb47d",
+                "reference": "c4a667294a8eb753dba9ee0ade2c655ed3acb47d",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bart Vandeputte",
+                    "email": "bart.vdputte@gmail.com"
+                }
+            ],
+            "description": "Kirby 3 plugin to schedule the automatic publishing of pages on a certain date+time. It is built to work with enabled cache.",
+            "keywords": [
+                "Tasks",
+                "autopublish",
+                "background tasks",
+                "kirby3",
+                "kirby3-plugin",
+                "publish",
+                "schedule"
+            ],
+            "time": "2019-04-12T13:13:43+00:00"
+        },
+        {
             "name": "claviska/simpleimage",
             "version": "3.3.4",
             "source": {
@@ -222,40 +262,6 @@
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
             "time": "2019-09-26T01:22:02+00:00"
-        },
-        {
-            "name": "cre8ivclick/sitemapper",
-            "version": "1.2",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/cre8ivclick/sitemapper.git",
-                "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/cre8ivclick%2Fsitemapper/repository/archive.zip?sha=de48a9ace7f7ab6366c0245cc43f30954cacd296",
-                "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1"
-            },
-            "type": "kirby-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cre8iv Click",
-                    "email": "hello@cre8iv.click",
-                    "homepage": "https://cre8iv.click"
-                }
-            ],
-            "description": "Cre8iv Click's Automatic Sitemap Generator Plugin for Kirby",
-            "homepage": "https://gitlab.com/cre8ivclick/sitemapper",
-            "abandoned": "kirbyzone/sitemapper",
-            "time": "2019-12-11T05:53:40+00:00"
         },
         {
             "name": "diverently/laravel-mix-kirby",

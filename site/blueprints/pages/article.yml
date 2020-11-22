@@ -36,6 +36,11 @@ tabs:
                 type: date
                 time: true
                 default: now
+              autopublish:
+                label: Autopublish on
+                type: date
+                time: true
+                default: now
               author:
                 type: users
                 multiple: false
