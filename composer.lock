@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10a42a3fae59b86d31a9c0967a33850b",
+    "content-hash": "0e9f2aed9777cf8b3ed0dcea158ee4b9",
     "packages": [
         {
             "name": "afbora/kirby-minify-html",
@@ -222,6 +222,40 @@
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
             "time": "2019-09-26T01:22:02+00:00"
+        },
+        {
+            "name": "cre8ivclick/sitemapper",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/cre8ivclick/sitemapper.git",
+                "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/cre8ivclick%2Fsitemapper/repository/archive.zip?sha=de48a9ace7f7ab6366c0245cc43f30954cacd296",
+                "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cre8iv Click",
+                    "email": "hello@cre8iv.click",
+                    "homepage": "https://cre8iv.click"
+                }
+            ],
+            "description": "Cre8iv Click's Automatic Sitemap Generator Plugin for Kirby",
+            "homepage": "https://gitlab.com/cre8ivclick/sitemapper",
+            "abandoned": "kirbyzone/sitemapper",
+            "time": "2019-12-11T05:53:40+00:00"
         },
         {
             "name": "diverently/laravel-mix-kirby",
@@ -511,6 +545,39 @@
                 }
             ],
             "time": "2020-07-09T16:09:55+00:00"
+        },
+        {
+            "name": "kirbyzone/sitemapper",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/kirbyzone/sitemapper.git",
+                "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/kirbyzone%2Fsitemapper/repository/archive.zip?sha=de48a9ace7f7ab6366c0245cc43f30954cacd296",
+                "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cre8iv Click",
+                    "email": "hello@cre8iv.click",
+                    "homepage": "https://cre8iv.click"
+                }
+            ],
+            "description": "Cre8iv Click's Automatic Sitemap Generator Plugin for Kirby",
+            "homepage": "https://gitlab.com/cre8ivclick/sitemapper",
+            "time": "2019-12-11T16:53:40+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
