@@ -1,0 +1,20 @@
+//Responsive variables
+$phablet-breakpoint: 37em; //592px
+$tablet-breakpoint: 57.5em; //768px
+$desktop-breakpoint: 64em; //1024px
+$large-desktop-breakpoint: 80em; //1280px
+
+:root {
+  --background-color: #222225;
+  --page-width: 60em;
+  --font-color: #e8e9ed;
+  --invert-font-color: #222225;
+  --secondary-color: #a3abba;
+  --tertiary-color: #a3abba;
+  --primary-color: #62c4ff;
+  --error-color: #ff3c74;
+  --progress-bar-background: #3f3f44;
+  --progress-bar-fill: #62c4ff;
+  --code-bg-color: #3f3f44;
+}
+
