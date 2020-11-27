@@ -1,34 +1,5 @@
 @import 'abstracts/resets';
 @import 'abstracts/variables';
+@import 'base/base';
 @import 'layout/navigation';
 
-body {
-  color: #fff;
-  background-color: #000;
-}
-
-figure { width: 100%; }
-
-img[data-sizes='auto'] { display: block;
-  width: 100%; }
-
-/* class name must matches the value of `ratio` setting. */
-.lazysrcset-ratio {
-  position: relative;
-}
-
-.lazysrcset-ratio > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.lazysrcset-ratio > img::after {
-  display: block;
-  width: 100%;
-  height: 0;
-  content: '';
-}
