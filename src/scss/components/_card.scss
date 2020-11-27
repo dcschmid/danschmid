@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #a3abba;
+  border-radius: 0.25rem;
+
+  figure {
+    margin: 0;
+  }
+
+  &__title {
+    padding: 0.5em 0;
+    color: #222225;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #a3abba;
+  }
+
+  &__body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  &__cta {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    padding: 0.65em 2em;
+    color: #222225;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    background-color: #62c4ff;
+    border: 1px solid #62c4ff;
+    border-color: #62c4ff;
+    outline: 0;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  &__cta:hover,
+  &__cta:active,
+  &__cta:focus {
+    color: #62c4ff;
+    background-color: #222225;
+  }
+}

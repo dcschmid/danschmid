@@ -1,20 +1,12 @@
-<article>
-  <h2 id="headline"><?= $article->title()->html() ?></h2>
-  <div class="post-meta">
-    <div>
-      <?= $article->date()->toDate('d.m.Y H:i') ?>
+<div class="cards__item">
+  <article class="card">
+    <?php if($image = $article->cover()->toFile()): ?>
+      <?= $image->lazysrcset('breakpoints') ?>
+    <?php endif ?>
+    <h1 class="card__title"><?= $article->title()->html() ?></h1>
+    <div class="card__body">
+      <?= $article->metadescription()->kirbytext() ?>
     </div>
-    <div>
-      <?= $article->author()->toUser()->name() ?>
-    </div>
-    <div>
-        <?php foreach($article->tags() as $tag): ?>
-          <a href="<?= url('/', ['params' => ['tag' => $tag]]) ?>">
-            <?= html($tag) ?>
-          </a>
-        <?php endforeach ?>
-    </div>
-  </div>
-  <?= $article->intro()->kirbytext() ?>
-  <a href="<?= $article->url() ?>">Read more…</a>
-</article>
+    <a class="card__cta" href="<?= $article->url() ?>"><?= t('readmore') ?></a>
+  </article>
+</div>

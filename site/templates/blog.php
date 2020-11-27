@@ -1,15 +1,15 @@
 <?php snippet('header') ?>
 
-<main class="main-body">
+  <div class="cards">
+    <?php
+      foreach( $articles as $article):
+        snippet('article', ['article' => $article]);
+      endforeach
+    ?>
+  </div>
 
   <?php
-    foreach( $articles as $article):
-      snippet('article', ['article' => $article]);
-    endforeach
+    snippet('pagination', ['pagination' => $pagination]);
   ?>
-
-  <!-- pagination -->
-  <?php snippet('pagination', ['pagination' => $pagination]); ?>
-</main>
 
 <?php snippet('footer') ?>
