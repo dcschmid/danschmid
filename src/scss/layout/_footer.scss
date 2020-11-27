@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 1rem;
+  padding: 1em 0;
+
+  @media screen and (min-width: $desktop-breakpoint) {
+    width: 90%;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5em auto;
+
+    @media screen and (min-width: $tablet-breakpoint) {
+      flex-direction: row;
+      margin: 0 auto;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    margin: 0.5em 1em;
+    color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &__link:hover,
+  &__link:active,
+  &__link:focus {
+    color: var(--invert-font-color);
+    background-color: var(--primary-color);
+  }
+
+  &__copyright {
+    margin: 0 auto;
+    padding: 0 1em;
+  }
+}
