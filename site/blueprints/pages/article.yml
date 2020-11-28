@@ -24,6 +24,7 @@ tabs:
             template: cover
             type: files
           text:
+            label: Edior
             type: editor
             size: large
       sidebar:
