@@ -18,22 +18,6 @@ return [
     'sgkirby.commentions.templatesWithComments' => ['article'],
     'sgkirby.commentions.templatesWithWebmentions' => ['article'],
     'sgkirby.commentions.secret' => 'Commentions2020',
-    'routes' => [
-        [
-            'pattern' => 'feed',
-            'method' => 'GET',
-            'language' => '*',
-            'action'  => function () {
-                $options = [
-                    'title'       => 'Latest articles from danschmid',
-                    'description' => 'Read the latest articles from Daniel Schmid',
-                    'link'        => 'blog',
-                ];
-                $feed = page('blog')->children()->listed()->flip()->limit(10)->feed($options);
-                return $feed;
-            }
-        ]
-    ],
     'pedroborges.meta-tags.templates' => function ($page, $site) {
         return [
             'blog' => [
