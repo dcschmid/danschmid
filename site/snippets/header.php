@@ -13,4 +13,5 @@
     <link rel="me" href="https://github.com/dcschmid">
   </head>
   <body>
+    <?php snippet('svgsprite') ?>
     <?php snippet('mainnav') ?>

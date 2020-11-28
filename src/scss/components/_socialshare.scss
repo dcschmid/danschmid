@@ -1,0 +1,56 @@
+.socialshare {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 12px;
+    color: var(--invert-font-color);
+    text-decoration: none;
+    background-color: var(--font-color);
+    border: 1px solid var(--invert-font-color);
+    @media screen and (prefers-reduced-motion: reduce) {
+      &:hover,
+      &:active,
+      &:focus {
+        color: var(--invert-font-color);
+        text-decoration: none;
+        background-color: var(--secondary-color);
+        transition: none;
+      }
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--invert-font-color);
+      text-decoration: none;
+      background-color: var(--secondary-color);
+      transition: background-color 200ms linear;
+    }
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+
+      @media screen and (min-width: $tablet-breakpoint) {
+        width: 2rem;
+        height: 2rem;
+        padding-right: 10px;
+      }
+    }
+
+    span {
+      display: none;
+
+      @media screen and (min-width: $tablet-breakpoint) {
+        display: inline;
+        margin: 0;
+      }
+    }
+  }
+}
+
