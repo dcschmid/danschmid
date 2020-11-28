@@ -1,3 +1,30 @@
+# [0.6.0](https://git.danschmid.de/dcschmid/danschmid/compare/v0.5.0...v0.6.0) (2020-11-28)
+
+
+### Bug Fixes
+
+* header and navigation styles ([253f3de](https://git.danschmid.de/dcschmid/danschmid/commits/253f3de198e97e13b29961668aa4f16f94c31011))
+
+
+### Features
+
+* add base styles ([275fe31](https://git.danschmid.de/dcschmid/danschmid/commits/275fe316a6fdf3b036a23ae5c562590c996a2577))
+* add cards layout ([6fde919](https://git.danschmid.de/dcschmid/danschmid/commits/6fde919266d6321949cee4a2419e4f336b35fddf))
+* add footermenu styles ([72c74e2](https://git.danschmid.de/dcschmid/danschmid/commits/72c74e27b474522cb0722cfad8ea5bfc73005d15))
+* add indiauth links ([b84a94c](https://git.danschmid.de/dcschmid/danschmid/commits/b84a94c1e872f0bcc6465c48b4e96420f28f30ed))
+* add main layout styles ([5776ea2](https://git.danschmid.de/dcschmid/danschmid/commits/5776ea2ecd1dde2ae01549fcfb41f6bd6a9d2ecc))
+* add reset css ([8956e10](https://git.danschmid.de/dcschmid/danschmid/commits/8956e10cae02976db66d4140939cccaf57a8f5a9))
+* add site plugins folder to gitignore ([8d8b903](https://git.danschmid.de/dcschmid/danschmid/commits/8d8b903325e2a94df626949d4e589aeb265ed42f))
+* add socialshare buttons ([3972b84](https://git.danschmid.de/dcschmid/danschmid/commits/3972b840379900687e05a909aae4f7cf52bdcd63))
+* add stylelint ([16ec3ec](https://git.danschmid.de/dcschmid/danschmid/commits/16ec3ec82abf4b7b4b225f0e13e4ce9aa0b5c715))
+* add syntax highlighter ([02daad8](https://git.danschmid.de/dcschmid/danschmid/commits/02daad8715a9e21cbeeee5ec972881e6a2027d78))
+* add translations ([69f841b](https://git.danschmid.de/dcschmid/danschmid/commits/69f841b7f75f9b983a9bed03b6e75dbf5d051af8))
+* commentions styles improvements ([9cadbc6](https://git.danschmid.de/dcschmid/danschmid/commits/9cadbc615d82accbdeb710783387858b15fea2e2))
+* improve navigation layout and styles ([b5698ce](https://git.danschmid.de/dcschmid/danschmid/commits/b5698ce66047e956f57c6a5a9eec0cbcda86a5a8))
+* style blog article ([6320db5](https://git.danschmid.de/dcschmid/danschmid/commits/6320db55854ccbc184668386cb298d690b60e7a2))
+
+
+
 # [0.5.0](https://git.danschmid.de/dcschmid/danschmid/compare/v0.4.0...v0.5.0) (2020-11-22)
 
 
