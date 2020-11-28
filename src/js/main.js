@@ -1,6 +1,8 @@
+import Prism from "prismjs";
 import "lazysizes";
 // import a plugin
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
 import navigation from "./modules/navigation";
 
 navigation();
+Prism.highlightAll();
