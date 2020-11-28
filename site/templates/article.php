@@ -5,10 +5,11 @@
 
   <?= $page->text()->blocks() ?>
   <?php snippet('socialshare') ?>
+
+  <?php commentions('grouped') ?>
+  <?php commentions('form') ?>
 </article>
 
-<?php commentions('grouped') ?>
-<?php commentions('form') ?>
 
 <?php snippet('footer') ?>
 
