@@ -1,17 +1,15 @@
 <?php if ($pagination->hasPages()): ?>
   <nav class="pagination">
+    <?php if ($pagination->hasPrevPage()): ?>
+    <a class="pagination__link" href="<?= $pagination->prevPageURL() ?>">
+     <?= t('newerpost') ?>
+    </a>
+    <?php endif ?>
 
     <?php if ($pagination->hasNextPage()): ?>
-    <a class="next" href="<?= $pagination->nextPageURL() ?>">
-      ‹ older posts
+    <a class="pagination__link" href="<?= $pagination->nextPageURL() ?>">
+      <?= t('olderpost') ?>
     </a>
     <?php endif ?>
-
-    <?php if ($pagination->hasPrevPage()): ?>
-    <a class="prev" href="<?= $pagination->prevPageURL() ?>">
-      newer posts ›
-    </a>
-    <?php endif ?>
-
   </nav>
 <?php endif ?>

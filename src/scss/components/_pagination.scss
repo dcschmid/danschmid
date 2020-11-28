@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  &__link {
+    display: block;
+    padding: 5px 12px;
+    color: var(--invert-font-color);
+    text-decoration: none;
+    background-color: var(--font-color);
+    border: 1px solid var(--invert-font-color);
+  }
+
+  &__link:hover,
+  &__link:active,
+  &__link:focus {
+    color: var(--invert-font-color);
+    background-color: var(--secondary-color);
+    transition: background-color 200ms linear;
+
+    @media screen and (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+}
