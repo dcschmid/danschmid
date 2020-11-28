@@ -15,5 +15,12 @@ return [
     LC_TIME     => 'de_DE.utf8',
     LC_MESSAGES => 'de_DE.utf8',
     LC_CTYPE    => 'de_DE.utf8'
+  ],
+  'translations' => [
+    'readmore' => 'Lese mehr ...',
+    'olderpost' => 'Ältere Artikel',
+    'newerpost' => 'Neuere Artikel',
+    'supportme' => 'Unterstütze mich',
+    'search' => 'Suche'
   ]
 ];

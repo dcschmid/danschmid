@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -7,7 +7,9 @@
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "stylelint": "stylelint 'src/scss/**/*.scss'; exit 0;",
+    "stylelint-fix": "stylelint --fix 'src/scss/**/*.scss'; exit 0;"
   },
   "husky": {
     "hooks": {
@@ -15,8 +17,16 @@
     }
   },
   "dependencies": {
+    "babel-plugin-prismjs": "^2.0.1",
     "laravel-mix": "^5.0.5",
-    "lazysizes": "^5.2.2"
+    "lazysizes": "^5.2.2",
+    "postcss-custom-properties": "^10.0.0",
+    "prismjs": "^1.22.0",
+    "stylelint": "^13.8.0",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-formatter-stats": "^0.4.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",

@@ -4,20 +4,16 @@
     <?= $page->headLinkAlternates(); ?>
     <?= mix('/css/main.css') ?>
     <?= snippet('matomo'); ?>
-    <?php
-      commentions('css');
-      // within the <head> tags of a template or snippet
-      commentions('endpoints');
-    ?>
+    <?=commentions('endpoints'); ?>
+
+    <link rel="me" href="https://twitter.com/dcschmid1">
+    <link rel="me" href="https://github.com/dcschmid">
+    <link rel="alternate" type="application/rss+xml" title="Latest articles" href="<?= site()->url() ?>/feed"/>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <?php foreach ($pages as $child): ?>
-            <li><?= $child->title()->link() ?></li>
-          <?php endforeach ?>
-        </ul>
-      </nav>
+    <?php snippet('svgsprite') ?>
+    <header class="nav-wrapper">
+      <?php snippet('mainnav') ?>
     </header>
-    <?php snippet('mainnav') ?>
+    <main class="main-body">
+    <?php commentions('feedback') ?>

@@ -1,9 +1,0 @@
-title: Default Page
-preset: page
-fields:
-  textplain:
-    label: Textarea
-    type: textarea
-  text:
-    label: Editor
-    type: editor
