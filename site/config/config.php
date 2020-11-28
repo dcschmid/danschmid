@@ -18,11 +18,6 @@ return [
     'sgkirby.commentions.templatesWithComments' => ['article'],
     'sgkirby.commentions.templatesWithWebmentions' => ['article'],
     'sgkirby.commentions.secret' => 'Commentions2020',
-    'thumbs' => [
-        'srcsets' => [
-            'default' => [320, 576, 768, 992, 1200]
-        ],
-    ],
     'routes' => [
         [
             'pattern' => 'feed',
