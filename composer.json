@@ -30,7 +30,8 @@
         "afbora/kirby-minify-html": "^1.2",
         "kirbyzone/sitemapper": "^1.2",
         "bvdputte/kirby-autopublish": "^1.0",
-        "johannschopplich/kirby-blurry-placeholder": "^1.1"
+        "johannschopplich/kirby-blurry-placeholder": "^1.1",
+        "felixhaeberle/kirby3-webp": "^1.0"
     },
     "config": {
         "optimize-autoloader": true
