@@ -29,7 +29,8 @@
         "sgkirby/commentions": "^1.0",
         "afbora/kirby-minify-html": "^1.2",
         "kirbyzone/sitemapper": "^1.2",
-        "bvdputte/kirby-autopublish": "^1.0"
+        "bvdputte/kirby-autopublish": "^1.0",
+        "johannschopplich/kirby-blurry-placeholder": "^1.1"
     },
     "config": {
         "optimize-autoloader": true

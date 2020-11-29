@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c866bb05b7cb9ccff6f95acdf1e1cf6",
+    "content-hash": "34223d206193f6bb5203faee8fd0b352",
     "packages": [
         {
             "name": "afbora/kirby-minify-html",
@@ -413,6 +413,60 @@
                 }
             ],
             "time": "2020-07-09T16:09:55+00:00"
+        },
+        {
+            "name": "johannschopplich/kirby-blurry-placeholder",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johannschopplich/kirby-blurry-placeholder.git",
+                "reference": "e5f95f6a878644fe41f85b3752876e160869d865"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johannschopplich/kirby-blurry-placeholder/zipball/e5f95f6a878644fe41f85b3752876e160869d865",
+                "reference": "e5f95f6a878644fe41f85b3752876e160869d865",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.3.0"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.0",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "KirbyExtended\\": "classes/KirbyExtended/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johann Schopplich",
+                    "email": "pkg@johannschopplich.com",
+                    "homepage": "https://johannschopplich.com"
+                }
+            ],
+            "description": "Blurry image placeholders with lazyloading for Kirby",
+            "keywords": [
+                "image",
+                "kirby",
+                "lazy",
+                "lazyload",
+                "placeholder",
+                "seo"
+            ],
+            "time": "2020-09-18T19:04:40+00:00"
         },
         {
             "name": "kirbyzone/sitemapper",
