@@ -1,4 +1,27 @@
-# [0.6.0](https://github.com/dcschmid/danschmid/v0.5.0...v0.6.0) (2020-11-28)
+# [0.7.0](https://github.com/dcschmid/danschmid/compare/v0.6.0...v0.7.0) (2020-12-29)
+
+
+### Bug Fixes
+
+* coorect links in changelog file ([5652bfd](https://github.com/dcschmid/danschmid/commit/5652bfd53cf5794649c4f487682945ac3453c4e3))
+* remove drone .config ([bf02fbc](https://github.com/dcschmid/danschmid/commit/bf02fbc5790d4dec82a67f888a7a3cb2735a3cf4))
+* remove kirby3-feed ([3ccc19e](https://github.com/dcschmid/danschmid/commit/3ccc19e3cd0aba188b14df0b271d43dfd4c7e5b6))
+* remove kirby3-srcset ([bcde178](https://github.com/dcschmid/danschmid/commit/bcde178c30972fc1568dd6af937f79441feea9c8))
+* remove lazyload ([2c7263a](https://github.com/dcschmid/danschmid/commit/2c7263aac5bf1f6279b61b5bbedeec39da45b9a6))
+* set right responsive header tags ([a939378](https://github.com/dcschmid/danschmid/commit/a9393787634faf071ae1e117affc30cda4b9ab47))
+
+
+### Features
+
+* add layzloading image placeholder ([e163bdc](https://github.com/dcschmid/danschmid/commit/e163bdc9b315e8a9f86a75ba4feaaeef3a5b70b5))
+* add pagination and responsive iframes styles ([7b83316](https://github.com/dcschmid/danschmid/commit/7b8331632dfd27da0d18b1aeb0c1ffbb59bd15db))
+* add webp support ([5140ec7](https://github.com/dcschmid/danschmid/commit/5140ec7c338a0f75fb68023f2c18568e90e5087f))
+* upgrade dependicies and fixes ([0c37e7e](https://github.com/dcschmid/danschmid/commit/0c37e7e549260d8c64e81235c1c1be8000a7d54c))
+* upgrade to kirby 3.5 ([7c50bbe](https://github.com/dcschmid/danschmid/commit/7c50bbe792faadf86921b7c105fbb45800ad4c82))
+
+
+
+# [0.6.0](https://github.com/dcschmid/danschmid/compare/v0.5.0...v0.6.0) (2020-11-28)
 
 
 ### Bug Fixes
