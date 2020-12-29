@@ -24,9 +24,7 @@ tabs:
             template: cover
             type: files
           text:
-            label: Edior
-            type: editor
-            size: large
+            type: textarea
       sidebar:
         width: 1/3
         sections:
@@ -69,16 +67,12 @@ tabs:
           metatags:
             label: Meta Tags
             type: radio
-            default: indexfollow
+            default: noindexnofollow
             options:
-              - value: index,follow
-                text: index,follow
-              - value: noindex,follow
-                text: noindex,follow
-              - value: index,nofollow
-                text: index,nofollow
-              - value: noindex,nofollow
-               text: noindex,nofollow
+              indexfollow: index,follow
+              noindexfollow: noindex,follow
+              indexnofollow: index,nofollow
+              noindexnofollow: noindex,nofollow
       - width: 1/2
         sections:
           seopreview:

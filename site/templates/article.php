@@ -3,7 +3,7 @@
 <article class="article">
   <h1 class="article__headline"><?= $page->title()->html() ?></h1>
 
-  <?= $page->text()->blocks() ?>
+  <?= $page->text()->kt() ?>
   <?php snippet('socialshare') ?>
 
   <?php commentions('grouped') ?>

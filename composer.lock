@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b09a37dd158dff73b9372c296a121984",
+    "content-hash": "c654932f37250d2dbdbddd4bc96b4fa2",
     "packages": [
         {
             "name": "afbora/kirby-minify-html",
@@ -411,24 +411,23 @@
         },
         {
             "name": "getkirby/composer-installer",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/composer-installer.git",
-                "reference": "240a8b2c275d61b66601feb58222b7d34bc6cf1e"
+                "reference": "c98ece30bfba45be7ce457e1102d1b169d922f3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/240a8b2c275d61b66601feb58222b7d34bc6cf1e",
-                "reference": "240a8b2c275d61b66601feb58222b7d34bc6cf1e",
+                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/c98ece30bfba45be7ce457e1102d1b169d922f3d",
+                "reference": "c98ece30bfba45be7ce457e1102d1b169d922f3d",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0"
             },
             "require-dev": {
-                "composer/composer": "^1.8 || 2.0.*@dev",
-                "phpunit/phpunit": "^7.0"
+                "composer/composer": "^1.8 || ^2.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -447,55 +446,7 @@
             "homepage": "https://getkirby.com",
             "support": {
                 "issues": "https://github.com/getkirby/composer-installer/issues",
-                "source": "https://github.com/getkirby/composer-installer/tree/1.2.0"
-            },
-            "time": "2020-09-13T14:43:34+00:00"
-        },
-        {
-            "name": "getkirby/editor",
-            "version": "1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/getkirby/editor.git",
-                "reference": "1d19e9c8acad5125ddb6208ba109f7e2f0510eb9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/editor/zipball/1d19e9c8acad5125ddb6208ba109f7e2f0510eb9",
-                "reference": "1d19e9c8acad5125ddb6208ba109f7e2f0510eb9",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1",
-                "paquettg/php-html-parser": "^2.1",
-                "php": ">=7.2.0"
-            },
-            "require-dev": {
-                "getkirby/cms": "^3.3"
-            },
-            "type": "kirby-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Bastian Allgeier",
-                    "email": "bastian@getkirby.com"
-                }
-            ],
-            "description": "Kirby Editor",
-            "homepage": "https://getkirby.com",
-            "keywords": [
-                "cms",
-                "editor",
-                "kirby",
-                "plugin",
-                "wysiwyg"
-            ],
-            "support": {
-                "issues": "https://github.com/getkirby/editor/issues",
-                "source": "https://github.com/getkirby/editor/tree/develop"
+                "source": "https://github.com/getkirby/composer-installer/tree/1.2.1"
             },
             "funding": [
                 {
@@ -503,35 +454,27 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-07-09T16:09:55+00:00"
+            "time": "2020-12-28T12:54:39+00:00"
         },
         {
             "name": "johannschopplich/kirby-blurry-placeholder",
-            "version": "v1.1.1",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johannschopplich/kirby-blurry-placeholder.git",
-                "reference": "e5f95f6a878644fe41f85b3752876e160869d865"
+                "reference": "1a3a85d15d94a9a7f776e189aebd4b4622a988a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johannschopplich/kirby-blurry-placeholder/zipball/e5f95f6a878644fe41f85b3752876e160869d865",
-                "reference": "e5f95f6a878644fe41f85b3752876e160869d865",
+                "url": "https://api.github.com/repos/johannschopplich/kirby-blurry-placeholder/zipball/1a3a85d15d94a9a7f776e189aebd4b4622a988a5",
+                "reference": "1a3a85d15d94a9a7f776e189aebd4b4622a988a5",
                 "shasum": ""
             },
             "require": {
-                "getkirby/composer-installer": "^1.1",
+                "getkirby/composer-installer": "^1.2",
                 "php": ">=7.3.0"
             },
-            "require-dev": {
-                "getkirby/cms": "^3.0",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^9.0"
-            },
             "type": "kirby-plugin",
-            "extra": {
-                "kirby-cms-path": false
-            },
             "autoload": {
                 "psr-4": {
                     "KirbyExtended\\": "classes/KirbyExtended/"
@@ -548,20 +491,19 @@
                     "homepage": "https://johannschopplich.com"
                 }
             ],
-            "description": "Blurry image placeholders with lazyloading for Kirby",
+            "description": "Blurry image placeholders and lazy loading for better UX",
             "keywords": [
                 "image",
                 "kirby",
-                "lazy",
                 "lazyload",
                 "placeholder",
                 "seo"
             ],
             "support": {
                 "issues": "https://github.com/johannschopplich/kirby-blurry-placeholder/issues",
-                "source": "https://github.com/johannschopplich/kirby-blurry-placeholder/tree/v1.1.1"
+                "source": "https://github.com/johannschopplich/kirby-blurry-placeholder/tree/v1.1.4"
             },
-            "time": "2020-09-18T19:04:40+00:00"
+            "time": "2020-12-24T16:55:20+00:00"
         },
         {
             "name": "kirbyzone/sitemapper",
@@ -954,114 +896,6 @@
                 "yml"
             ],
             "time": "2019-09-10T13:16:29+00:00"
-        },
-        {
-            "name": "paquettg/php-html-parser",
-            "version": "2.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paquettg/php-html-parser.git",
-                "reference": "668c770fc5724ea3f15b8791435f054835be8d5e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paquettg/php-html-parser/zipball/668c770fc5724ea3f15b8791435f054835be8d5e",
-                "reference": "668c770fc5724ea3f15b8791435f054835be8d5e",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-mbstring": "*",
-                "ext-zlib": "*",
-                "paquettg/string-encode": "~1.0.0",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "infection/infection": "^0.13.4",
-                "mockery/mockery": "^1.2",
-                "phan/phan": "^2.4",
-                "php-coveralls/php-coveralls": "^2.1",
-                "phpunit/phpunit": "^7.5.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "PHPHtmlParser\\": "src/PHPHtmlParser"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gilles Paquette",
-                    "email": "paquettg@gmail.com",
-                    "homepage": "http://gillespaquette.ca"
-                }
-            ],
-            "description": "An HTML DOM parser. It allows you to manipulate HTML. Find tags on an HTML page with selectors just like jQuery.",
-            "homepage": "https://github.com/paquettg/php-html-parser",
-            "keywords": [
-                "dom",
-                "html",
-                "parser"
-            ],
-            "support": {
-                "issues": "https://github.com/paquettg/php-html-parser/issues",
-                "source": "https://github.com/paquettg/php-html-parser/tree/2.2.1"
-            },
-            "time": "2020-01-20T12:59:15+00:00"
-        },
-        {
-            "name": "paquettg/string-encode",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paquettg/string-encoder.git",
-                "reference": "a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paquettg/string-encoder/zipball/a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee",
-                "reference": "a8708e9fac9d5ddfc8fc2aac6004e2cd05d80fee",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7.5.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "stringEncode": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gilles Paquette",
-                    "email": "paquettg@gmail.com",
-                    "homepage": "http://gillespaquette.ca"
-                }
-            ],
-            "description": "Facilitating the process of altering string encoding in PHP.",
-            "homepage": "https://github.com/paquettg/string-encoder",
-            "keywords": [
-                "charset",
-                "encoding",
-                "string"
-            ],
-            "support": {
-                "issues": "https://github.com/paquettg/string-encoder/issues",
-                "source": "https://github.com/paquettg/string-encoder/tree/1.0.1"
-            },
-            "time": "2018-12-21T02:25:09+00:00"
         },
         {
             "name": "pedroborges/kirby-meta-tags",
@@ -1532,16 +1366,16 @@
         },
         {
             "name": "sylvainjule/matomo",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-matomo.git",
-                "reference": "3c82ffda22f3622fd650947abb916d97efa943fb"
+                "reference": "11d754eb15f7c37cf0877095e50b407f66715096"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-matomo/zipball/3c82ffda22f3622fd650947abb916d97efa943fb",
-                "reference": "3c82ffda22f3622fd650947abb916d97efa943fb",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-matomo/zipball/11d754eb15f7c37cf0877095e50b407f66715096",
+                "reference": "11d754eb15f7c37cf0877095e50b407f66715096",
                 "shasum": ""
             },
             "require": {
@@ -1564,22 +1398,22 @@
             "description": "Matomo helpers and panel sections for Kirby",
             "support": {
                 "issues": "https://github.com/sylvainjule/kirby-matomo/issues",
-                "source": "https://github.com/sylvainjule/kirby-matomo/tree/master"
+                "source": "https://github.com/sylvainjule/kirby-matomo/tree/1.0.6"
             },
-            "time": "2020-04-10T13:25:27+00:00"
+            "time": "2020-12-23T19:00:39+00:00"
         },
         {
             "name": "sylvainjule/pagetable",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-pagetable.git",
-                "reference": "adb2573c696c6a2d30f1846d2ba7d1b3aa611d42"
+                "reference": "a11d7cc48782841c1119be24a543cc10269a80fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/adb2573c696c6a2d30f1846d2ba7d1b3aa611d42",
-                "reference": "adb2573c696c6a2d30f1846d2ba7d1b3aa611d42",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/a11d7cc48782841c1119be24a543cc10269a80fa",
+                "reference": "a11d7cc48782841c1119be24a543cc10269a80fa",
                 "shasum": ""
             },
             "require": {
@@ -1602,9 +1436,9 @@
             "description": "Display subpages in a flexible table",
             "support": {
                 "issues": "https://github.com/sylvainjule/kirby-pagetable/issues",
-                "source": "https://github.com/sylvainjule/kirby-pagetable/tree/master"
+                "source": "https://github.com/sylvainjule/kirby-pagetable/tree/1.0.6"
             },
-            "time": "2019-11-01T09:33:31+00:00"
+            "time": "2020-12-26T18:47:32+00:00"
         },
         {
             "name": "symfony/css-selector",
