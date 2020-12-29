@@ -1,8 +1,11 @@
-import Prism from "prismjs";
-import "lazysizes";
 // import a plugin
-import "lazysizes/plugins/parent-fit/ls.parent-fit";
-import navigation from "./modules/navigation";
+import Prism from "prismjs";
+//import navigation from "./modules/navigation";
+import lozad from "lozad";
 
-navigation();
+//navigation();
 Prism.highlightAll();
+
+const el = document.querySelectorAll("img[data-lazyload]");
+const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
+observer.observe();

@@ -1,7 +1,7 @@
 <div class="cards__item">
   <article class="card">
     <?php if($image = $article->cover()->toFile()): ?>
-      <?= $image->lazysrcset('breakpoints') ?>
+      <img src="<?= $image->placeholderUri() ?>" data-src="<?= $image->url() ?>" data-lazyload alt="<?= $image->alt() ?>">
     <?php endif ?>
     <h1 class="card__title"><?= $article->title()->html() ?></h1>
     <div class="card__body">
