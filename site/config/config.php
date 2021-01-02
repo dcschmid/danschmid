@@ -4,6 +4,9 @@ return [
     'debug'  => true,
     'home' => 'blog',
     'languages' => true,
+    'markdown' => [
+        'extra' => true
+    ],
     'sylvainjule.matomo.url' => 'https://matomo.danschmid.de',
     'sylvainjule.matomo.id'  => '1',
     'sylvainjule.matomo.token' => 'dfc1a0207f2f1f84ebc7f4756c5698ff',
