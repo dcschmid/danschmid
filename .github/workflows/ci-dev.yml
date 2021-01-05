@@ -23,4 +23,5 @@ jobs:
           composer install
           yarn
           yarn prod
-
+          service nginx restart
+          service php-fpm restart
