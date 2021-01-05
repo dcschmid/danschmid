@@ -1,3 +1,29 @@
+# [0.8.0](https://github.com/dcschmid/danschmid/compare/v0.7.0...v0.8.0) (2021-01-05)
+
+
+### Bug Fixes
+
+* activate panel install ([49d00ca](https://github.com/dcschmid/danschmid/commit/49d00cadd122fded505f912060ffb5ae0d8fc11b))
+* improve webpack ([a8d0f53](https://github.com/dcschmid/danschmid/commit/a8d0f53b9fc40330dd98f3f1fa6ac55857562b48))
+* navigation.js ([024c488](https://github.com/dcschmid/danschmid/commit/024c488f3762a76650109c676e32a81fac4455da))
+* remove temporary srcset ([14e80d0](https://github.com/dcschmid/danschmid/commit/14e80d02fd50b3edc435875bb5fdc4f004be570e))
+
+
+### Features
+
+* activate navigation js ([c219ad0](https://github.com/dcschmid/danschmid/commit/c219ad060276dfe64d60c2867491de171d5c6e68))
+* add dev ci file ([ddf83d4](https://github.com/dcschmid/danschmid/commit/ddf83d47ee52a6790e73def01c15ac9c40b1d00e))
+* add feeds ([6fa532f](https://github.com/dcschmid/danschmid/commit/6fa532fd79687db688d3fa38c660b1eda8dce461))
+* add markdown extra ([a92ca11](https://github.com/dcschmid/danschmid/commit/a92ca11d1d6306be055c5ff25f002f26a0e5cd9a))
+* add release workflow ([413d114](https://github.com/dcschmid/danschmid/commit/413d114cdb7a514de610bb4c15e00be5f335b478))
+* add syntax highlight ([eee00db](https://github.com/dcschmid/danschmid/commit/eee00dbb7e7930085096bc52073174c56ff6ce39))
+* add tags to view ([45b337e](https://github.com/dcschmid/danschmid/commit/45b337ee96fc9ff0984c0ffb5f39401ee88fe1e4))
+* add telegram notifier ([175c66d](https://github.com/dcschmid/danschmid/commit/175c66d3edfc1ad5281f322541405370a6149d9b))
+* remove webp ([c263c8c](https://github.com/dcschmid/danschmid/commit/c263c8cbab050cf04f69634e92044b47cd257703))
+* update yan ([c52dcc0](https://github.com/dcschmid/danschmid/commit/c52dcc0cee77fbf0e91d491ca1d1feb1f93398c4))
+
+
+
 # [0.7.0](https://github.com/dcschmid/danschmid/compare/v0.6.0...v0.7.0) (2020-12-29)
 
 
