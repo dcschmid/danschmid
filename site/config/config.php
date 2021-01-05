@@ -27,7 +27,6 @@ return [
             'preset' => 'default'
         ]
     ],
-    'kirby3-webp' => true,
     'afbora.kirby-minify-html.enabled' => true,
     'afbora.kirby-minify-html.options' => [
         'doOptimizeViaHtmlDomParser' => true, // set true/false or remove line to default
