@@ -1,28 +1,23 @@
 <?php
 return [
-    'install' => true,
+    'panel' =>[
+        'install' => true
+    ],
     'debug'  => true,
     'home' => 'blog',
     'languages' => true,
+    'markdown' => [
+        'extra' => true
+    ],
     'sylvainjule.matomo.url' => 'https://matomo.danschmid.de',
     'sylvainjule.matomo.id'  => '1',
     'sylvainjule.matomo.token' => 'dfc1a0207f2f1f84ebc7f4756c5698ff',
     'sylvainjule.matomo.active'         => true,
     'sylvainjule.matomo.trackUsers'     => false,
     'sylvainjule.matomo.disableCookies' => true,
-    'thumbs' => [
-        'srcsets' => [
-            'default' => [320, 576, 768, 992, 1200],
-        ],
-    ],
     'kirby-extended.blurry-placeholder' => [
         'pixel-target' => 75,
-        'srcset' => [
-            'enable' => true,
-            'preset' => 'default'
-        ]
     ],
-    'kirby3-webp' => true,
     'afbora.kirby-minify-html.enabled' => true,
     'afbora.kirby-minify-html.options' => [
         'doOptimizeViaHtmlDomParser' => true, // set true/false or remove line to default
@@ -31,6 +26,21 @@ return [
     'sgkirby.commentions.templatesWithComments' => ['article'],
     'sgkirby.commentions.templatesWithWebmentions' => ['article'],
     'sgkirby.commentions.secret' => 'Commentions2020',
+    'routes' => [
+        [
+            'pattern' => 'feed',
+            'method' => 'GET',
+            'action'  => function () {
+                $options = [
+                    'title'       => 'Latest articles',
+                    'description' => 'Read the latest news from Danschmid',
+                    'link'        => 'blog'
+                ];
+                $feed = page('blog')->children()->listed()->flip()->limit(10)->feed($options);
+                return $feed;
+            }
+        ]
+    ],
     'pedroborges.meta-tags.templates' => function ($page, $site) {
         return [
             'blog' => [

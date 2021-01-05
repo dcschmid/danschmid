@@ -8,5 +8,14 @@
       <?= $article->metadescription()->kirbytext() ?>
     </div>
     <a class="card__cta" href="<?= $article->url() ?>"><?= t('readmore') ?></a>
+    <ul class="tags">
+      <?php foreach($article->tags()->split() as $tag): ?>
+      <li>
+        <a class="tags__button" href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
+          <?= html($tag) ?>
+        </a>
+      </li>
+      <?php endforeach ?>
+    </ul>
   </article>
 </div>

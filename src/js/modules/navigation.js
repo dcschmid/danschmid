@@ -1,7 +1,6 @@
 export default function navigation() {
   const sideNav = document.querySelector(".nav__list"),
     toggleNavBtn = document.querySelector(".nav__toggle"),
-    pageOverlay = document.querySelector(".nav__overlay"),
     navLinks = document.querySelectorAll(".link");
 
   function toggleNav() {
@@ -13,7 +12,6 @@ export default function navigation() {
   }
 
   toggleNavBtn.addEventListener("click", toggleNav);
-  pageOverlay.addEventListener("click", toggleNav);
 
   navLinks.forEach(el => {
     el.addEventListener("click", event => {
