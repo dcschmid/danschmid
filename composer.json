@@ -31,7 +31,8 @@
         "bvdputte/kirby-autopublish": "^1.0",
         "johannschopplich/kirby-blurry-placeholder": "^1.1",
         "felixhaeberle/kirby3-webp": "^1.0",
-        "bnomei/kirby3-feed": "^1.3"
+        "bnomei/kirby3-feed": "^1.3",
+        "johannschopplich/kirby-highlighter": "^1.3"
     },
     "config": {
         "optimize-autoloader": true

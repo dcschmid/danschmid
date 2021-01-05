@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a073ca51ebb02daa7e037a25f22f5740",
+    "content-hash": "bd3e99dd4a2949a3b89f63a914c6fd2a",
     "packages": [
         {
             "name": "afbora/kirby-minify-html",
@@ -569,6 +569,62 @@
                 "source": "https://github.com/johannschopplich/kirby-blurry-placeholder/tree/v1.1.4"
             },
             "time": "2020-12-24T16:55:20+00:00"
+        },
+        {
+            "name": "johannschopplich/kirby-highlighter",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johannschopplich/kirby-highlighter.git",
+                "reference": "90eb39998352a234f3e29db0daf3693ce1009b7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johannschopplich/kirby-highlighter/zipball/90eb39998352a234f3e29db0daf3693ce1009b7c",
+                "reference": "90eb39998352a234f3e29db0daf3693ce1009b7c",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "scrivo/highlight.php": "^9.18"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.0",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "KirbyExtended\\": "classes/KirbyExtended/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johann Schopplich",
+                    "email": "pkg@johannschopplich.com",
+                    "homepage": "https://johannschopplich.com"
+                }
+            ],
+            "description": "Server-side syntax highlighting for KirbyText",
+            "keywords": [
+                "highlight",
+                "highlighter",
+                "hljs",
+                "kirby"
+            ],
+            "support": {
+                "issues": "https://github.com/johannschopplich/kirby-highlighter/issues",
+                "source": "https://github.com/johannschopplich/kirby-highlighter/tree/v1.3.0"
+            },
+            "time": "2020-09-18T09:17:30+00:00"
         },
         {
             "name": "kirbyzone/sitemapper",
@@ -1380,6 +1436,82 @@
                 }
             ],
             "time": "2020-11-10T11:24:50+00:00"
+        },
+        {
+            "name": "scrivo/highlight.php",
+            "version": "v9.18.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scrivo/highlight.php.git",
+                "reference": "44a3d4136edb5ad8551590bf90f437db80b2d466"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/44a3d4136edb5ad8551590bf90f437db80b2d466",
+                "reference": "44a3d4136edb5ad8551590bf90f437db80b2d466",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.7",
+                "sabberworm/php-css-parser": "^8.3",
+                "symfony/finder": "^2.8|^3.4",
+                "symfony/var-dumper": "^2.8|^3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Highlight\\": "",
+                    "HighlightUtilities\\": ""
+                },
+                "files": [
+                    "HighlightUtilities/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Geert Bergman",
+                    "homepage": "http://www.scrivo.org/",
+                    "role": "Project Author"
+                },
+                {
+                    "name": "Vladimir Jimenez",
+                    "homepage": "https://allejo.io",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Martin Folkers",
+                    "homepage": "https://twobrain.io",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "Server side syntax highlighter that supports 185 languages. It's a PHP port of highlight.js",
+            "keywords": [
+                "code",
+                "highlight",
+                "highlight.js",
+                "highlight.php",
+                "syntax"
+            ],
+            "support": {
+                "issues": "https://github.com/scrivo/highlight.php/issues",
+                "source": "https://github.com/scrivo/highlight.php"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/allejo",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-12-22T19:20:29+00:00"
         },
         {
             "name": "sgkirby/commentions",
