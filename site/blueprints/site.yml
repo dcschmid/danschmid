@@ -56,4 +56,5 @@ tabs:
       commentions:
         type: commentions
         show: pending
-
+  redirects:
+    extends: plugin-redirects3xx
