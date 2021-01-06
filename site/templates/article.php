@@ -4,6 +4,11 @@
   <h1 class="article__headline"><?= $page->title()->html() ?></h1>
 
   <?= $page->text()->kt() ?>
+
+  <?php if($author = $page->author()->toUser()): ?>
+    <?php snippet('author', ['author' => $author]) ?>
+  <?php endif ?>
+
   <?php snippet('socialshare') ?>
 
   <?php commentions('grouped') ?>

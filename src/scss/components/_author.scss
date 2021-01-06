@@ -1,0 +1,42 @@
+.author {
+  display: flex;
+  padding: 1em;
+  border: 1px solid var(--font-color);
+
+  &__image {
+    margin-right: 1rem;
+
+    img {
+      width: 70px;
+
+      @media(min-width: 40rem) {
+        width: 100px;
+      }
+    }
+  }
+
+  &__name {
+    font-size: 1rem;
+
+    @media(min-width: 56rem) {
+      font-size: 1.25rem;
+    }
+  }
+
+  &__text p {
+    margin: 0;
+    font-size: 0.875rem;
+
+    @media(min-width: 40rem) {
+      font-size: 1rem;
+    }
+  }
+
+  &__links {
+    font-size: 0.875rem;
+
+    @media(min-width: 40rem) {
+      font-size: 1rem;
+    }
+  }
+}
