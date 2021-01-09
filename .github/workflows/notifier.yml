@@ -17,3 +17,5 @@ jobs:
           TELEGRAM_CHAT: ${{ secrets.chat }}
         with:
           STATUS: ${{job.status}} # Required for accessing the status of certain job
+          footer: '' # Optional
+          message: '' # Optional
