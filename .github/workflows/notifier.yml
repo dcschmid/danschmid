@@ -13,8 +13,8 @@ jobs:
       - name: Send message to Telegram
         uses: Lukasss93/telegram-action@v1
         env:
-          TELEGRAM_TOKEN: ${{ secrets.token }}
-          TELEGRAM_CHAT: ${{ secrets.chat }}
+          TELEGRAM_TOKEN: ${{ secrets.telegram_token }}
+          TELEGRAM_CHAT: ${{ secrets.telegram_chat }}
         with:
           STATUS: ${{job.status}} # Required for accessing the status of certain job
           footer: '' # Optional
