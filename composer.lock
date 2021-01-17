@@ -602,25 +602,25 @@
         },
         {
             "name": "johannschopplich/kirby-highlighter",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johannschopplich/kirby-highlighter.git",
-                "reference": "90eb39998352a234f3e29db0daf3693ce1009b7c"
+                "reference": "6d41c31e30e0ef4d68e904c45a6cb2568c60b62f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johannschopplich/kirby-highlighter/zipball/90eb39998352a234f3e29db0daf3693ce1009b7c",
-                "reference": "90eb39998352a234f3e29db0daf3693ce1009b7c",
+                "url": "https://api.github.com/repos/johannschopplich/kirby-highlighter/zipball/6d41c31e30e0ef4d68e904c45a6cb2568c60b62f",
+                "reference": "6d41c31e30e0ef4d68e904c45a6cb2568c60b62f",
                 "shasum": ""
             },
             "require": {
                 "getkirby/composer-installer": "^1.1",
-                "scrivo/highlight.php": "^9.18"
+                "scrivo/highlight.php": "^9.18",
+                "symfony/polyfill-php80": "^1.20"
             },
             "require-dev": {
                 "getkirby/cms": "^3.0",
-                "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^9.0"
             },
             "type": "kirby-plugin",
@@ -650,11 +650,7 @@
                 "hljs",
                 "kirby"
             ],
-            "support": {
-                "issues": "https://github.com/johannschopplich/kirby-highlighter/issues",
-                "source": "https://github.com/johannschopplich/kirby-highlighter/tree/v1.3.0"
-            },
-            "time": "2020-09-18T09:17:30+00:00"
+            "time": "2021-01-05T18:51:55+00:00"
         },
         {
             "name": "kirbyzone/sitemapper",
@@ -1482,16 +1478,16 @@
         },
         {
             "name": "sylvainjule/pagetable",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-pagetable.git",
-                "reference": "a11d7cc48782841c1119be24a543cc10269a80fa"
+                "reference": "0dcc3ea1c3867286e3695310521472b0e2671c30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/a11d7cc48782841c1119be24a543cc10269a80fa",
-                "reference": "a11d7cc48782841c1119be24a543cc10269a80fa",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/0dcc3ea1c3867286e3695310521472b0e2671c30",
+                "reference": "0dcc3ea1c3867286e3695310521472b0e2671c30",
                 "shasum": ""
             },
             "require": {
@@ -1512,11 +1508,7 @@
                 }
             ],
             "description": "Display subpages in a flexible table",
-            "support": {
-                "issues": "https://github.com/sylvainjule/kirby-pagetable/issues",
-                "source": "https://github.com/sylvainjule/kirby-pagetable/tree/1.0.6"
-            },
-            "time": "2020-12-26T18:47:32+00:00"
+            "time": "2021-01-06T16:00:41+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -1585,16 +1577,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.20.0",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "39d483bdf39be819deabf04ec872eb0b2410b531"
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/39d483bdf39be819deabf04ec872eb0b2410b531",
-                "reference": "39d483bdf39be819deabf04ec872eb0b2410b531",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
                 "shasum": ""
             },
             "require": {
@@ -1606,7 +1598,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -1644,9 +1636,6 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.20.0"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1661,7 +1650,87 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-23T14:02:19+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.22.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.22-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "true/punycode",
@@ -1872,5 +1941,5 @@
         "php": ">=7.1.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
