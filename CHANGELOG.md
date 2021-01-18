@@ -1,3 +1,24 @@
+# [0.9.0](https://github.com/dcschmid/danschmid/compare/v0.8.0...v0.9.0) (2021-01-18)
+
+
+### Bug Fixes
+
+* reenable srcsets ([7462184](https://github.com/dcschmid/danschmid/commit/746218485d5760526163340a041219fa35a2c9e7))
+* tag styles ([a21169c](https://github.com/dcschmid/danschmid/commit/a21169c3d2832627e79c9254b661d71c0d956a22))
+
+
+### Features
+
+* add author to blog articles ([1ed60b2](https://github.com/dcschmid/danschmid/commit/1ed60b2b556301266141385f6ef0b63e078307f5))
+* add kirby redirects plugin ([b5adb31](https://github.com/dcschmid/danschmid/commit/b5adb31a673c448bae8ffde3f9bfe344e81f526c))
+* add master deploy action ([88cf805](https://github.com/dcschmid/danschmid/commit/88cf805e7c804aaad15392d44ee1c01edef4b119))
+* add related articles function ([3b24fdb](https://github.com/dcschmid/danschmid/commit/3b24fdbbeccf0d6e778cf4289a7a9e31302d018f))
+* add webmentions links ([7be982c](https://github.com/dcschmid/danschmid/commit/7be982c826a88a4445e966219ed162178efdbaa7))
+* change another telegram notifier ([7a80e48](https://github.com/dcschmid/danschmid/commit/7a80e48ded3499fbd43ecc3ba014600f1a0c2693))
+* pgrade dependecies ([8b2a208](https://github.com/dcschmid/danschmid/commit/8b2a2082f51b4e3457fea0a23ca2c0dbf9f8a53b))
+
+
+
 # [0.8.0](https://github.com/dcschmid/danschmid/compare/v0.7.0...v0.8.0) (2021-01-05)
 
 
