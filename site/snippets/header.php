@@ -11,6 +11,8 @@
 
     <link rel="me" href="https://twitter.com/dcschmid1">
     <link rel="me" href="https://github.com/dcschmid">
+    <link rel="webmention" href="https://webmention.io/danschmid.de/webmention" />
+    <link rel="pingback" href="https://webmention.io/danschmid.de/xmlrpc" />
     <link rel="alternate" type="application/rss+xml" title="Latest articles" href="<?= site()->url() ?>/feed"/>
   </head>
   <body>
