@@ -35,6 +35,10 @@ return [
     'sgkirby.commentions.templatesWithComments' => ['article'],
     'sgkirby.commentions.templatesWithWebmentions' => ['article'],
     'sgkirby.commentions.secret' => 'Commentions2020',
+    'sgkirby.commentions.defaultstatus' => [
+        'comment'   => 'pending',
+        'like'      => 'approved',
+    ],
     'routes' => [
         [
             'pattern' => 'feed',
