@@ -43,7 +43,6 @@ tabs:
               related:
                 label: Related articles
                 type: pages
-                query: page.siblings(false)
               files:
                 type: files
                 headline: Files
