@@ -1,3 +1,19 @@
+# [1.0.0](https://github.com/dcschmid/danschmid/compare/v0.9.0...v1.0.0) (2021-01-26)
+
+
+### Bug Fixes
+
+* correect z-index in the navigation ([81f6dba](https://github.com/dcschmid/danschmid/commit/81f6dba65aae9a78d6422c7eed4f582bf7267a87))
+* update and remove dependecies ([72d5520](https://github.com/dcschmid/danschmid/commit/72d55208d9b6a20570dec09ff7d252fc23b36fed))
+
+
+### Features
+
+* add favicon ([adb0454](https://github.com/dcschmid/danschmid/commit/adb04548c3ebf117857f02d2876d678cd86fb05e))
+* upgrade dependicies ([757ece3](https://github.com/dcschmid/danschmid/commit/757ece35588b8002e53abf7b8226733c5fc57f5a))
+
+
+
 # [0.9.0](https://github.com/dcschmid/danschmid/compare/v0.8.0...v0.9.0) (2021-01-18)
 
 
