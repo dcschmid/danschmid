@@ -1358,16 +1358,16 @@
         },
         {
             "name": "sylvainjule/pagetable",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-pagetable.git",
-                "reference": "0dcc3ea1c3867286e3695310521472b0e2671c30"
+                "reference": "a47689e703d63a2e5f09038c9cc74747ef302ccb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/0dcc3ea1c3867286e3695310521472b0e2671c30",
-                "reference": "0dcc3ea1c3867286e3695310521472b0e2671c30",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/a47689e703d63a2e5f09038c9cc74747ef302ccb",
+                "reference": "a47689e703d63a2e5f09038c9cc74747ef302ccb",
                 "shasum": ""
             },
             "require": {
@@ -1388,7 +1388,7 @@
                 }
             ],
             "description": "Display subpages in a flexible table",
-            "time": "2021-01-06T16:00:41+00:00"
+            "time": "2021-01-25T17:16:10+00:00"
         },
         {
             "name": "symfony/css-selector",
