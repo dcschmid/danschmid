@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a1fa6d8d7fae600877629470489f310",
+    "content-hash": "353efc223a4be2c9de12fa292980e4ad",
     "packages": [
         {
             "name": "afbora/kirby-minify-html",
@@ -114,121 +114,6 @@
                 "source": "https://github.com/bnomei/kirby3-feed/tree/v1.3.7"
             },
             "time": "2020-02-06T12:10:38+00:00"
-        },
-        {
-            "name": "bnomei/kirby3-redirects",
-            "version": "1.5.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bnomei/kirby3-redirects.git",
-                "reference": "ab5004483c358b0efee0563fa625891586a8a29b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bnomei/kirby3-redirects/zipball/ab5004483c358b0efee0563fa625891586a8a29b",
-                "reference": "ab5004483c358b0efee0563fa625891586a8a29b",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1",
-                "php": ">=7.2.0"
-            },
-            "require-dev": {
-                "getkirby/cms": "^3.2",
-                "nunomaduro/phpinsights": "^1.8",
-                "php-coveralls/php-coveralls": "^2.1",
-                "phpunit/phpunit": "^8.3"
-            },
-            "suggest": {
-                "bnomei/kirby3-csv": "Adds functions to import and export data from structures (like the redirect table)",
-                "bnomei/kirby3-feed": "Add xml-rss and/or json feed",
-                "bnomei/kirby3-robots-txt": "Automatic robots.txt. Detects xmlsitemap.",
-                "bnomei/kirby3-security-headers": "CPS headers to make the the web a saver place. Sensible defaults with zero configuration.",
-                "distantnative/retour-for-kirby": "Better choice than bnomei\\kirby3-redirects if you are porting a Kirby 2 website.",
-                "omz13/kirby3-xmlsitemap": "Adds a xml sitemap"
-            },
-            "type": "kirby-plugin",
-            "extra": {
-                "kirby-cms-path": "tests/kirby"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Bnomei\\": "classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bruno Meilick",
-                    "email": "b@bnomei.com"
-                }
-            ],
-            "description": "Setup HTTP Status Code Redirects from within the Kirby Panel",
-            "keywords": [
-                "301",
-                "302",
-                "307",
-                "308",
-                "header",
-                "kirby3",
-                "kirby3-cms",
-                "kirby3-plugin",
-                "redirect",
-                "redirects",
-                "status-codes"
-            ],
-            "support": {
-                "issues": "https://github.com/bnomei/kirby3-redirects/issues",
-                "source": "https://github.com/bnomei/kirby3-redirects/tree/master"
-            },
-            "time": "2020-02-15T18:32:17+00:00"
-        },
-        {
-            "name": "bvdputte/kirby-autopublish",
-            "version": "v1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bvdputte/kirby-autopublish.git",
-                "reference": "c4a667294a8eb753dba9ee0ade2c655ed3acb47d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bvdputte/kirby-autopublish/zipball/c4a667294a8eb753dba9ee0ade2c655ed3acb47d",
-                "reference": "c4a667294a8eb753dba9ee0ade2c655ed3acb47d",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1"
-            },
-            "type": "kirby-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bart Vandeputte",
-                    "email": "bart.vdputte@gmail.com"
-                }
-            ],
-            "description": "Kirby 3 plugin to schedule the automatic publishing of pages on a certain date+time. It is built to work with enabled cache.",
-            "keywords": [
-                "Tasks",
-                "autopublish",
-                "background tasks",
-                "kirby3",
-                "kirby3-plugin",
-                "publish",
-                "schedule"
-            ],
-            "support": {
-                "issues": "https://github.com/bvdputte/kirby-autopublish/issues",
-                "source": "https://github.com/bvdputte/kirby-autopublish/tree/v1.0"
-            },
-            "time": "2019-04-12T13:13:43+00:00"
         },
         {
             "name": "claviska/simpleimage",
@@ -435,16 +320,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "0d2751af7cb478df14f30fac47fe9a2cd3b38114"
+                "reference": "551e2f427eaf18e471df1c304552ab3de35e37c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/0d2751af7cb478df14f30fac47fe9a2cd3b38114",
-                "reference": "0d2751af7cb478df14f30fac47fe9a2cd3b38114",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/551e2f427eaf18e471df1c304552ab3de35e37c6",
+                "reference": "551e2f427eaf18e471df1c304552ab3de35e37c6",
                 "shasum": ""
             },
             "require": {
@@ -462,15 +347,16 @@
             },
             "type": "kirby-cms",
             "autoload": {
-                "files": [
-                    "config/setup.php"
-                ],
+                "psr-4": {
+                    "Kirby\\": "src/"
+                },
                 "classmap": [
                     "dependencies/"
                 ],
-                "psr-4": {
-                    "Kirby\\": "src/"
-                }
+                "files": [
+                    "config/setup.php",
+                    "config/helpers.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -490,19 +376,13 @@
                 "core",
                 "kirby"
             ],
-            "support": {
-                "email": "support@getkirby.com",
-                "forum": "https://forum.getkirby.com",
-                "issues": "https://github.com/getkirby/kirby/issues",
-                "source": "https://github.com/getkirby/kirby"
-            },
             "funding": [
                 {
                     "url": "https://getkirby.com/buy",
                     "type": "custom"
                 }
             ],
-            "time": "2020-12-15T08:09:43+00:00"
+            "time": "2021-01-19T11:05:44+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -1478,16 +1358,16 @@
         },
         {
             "name": "sylvainjule/pagetable",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-pagetable.git",
-                "reference": "0dcc3ea1c3867286e3695310521472b0e2671c30"
+                "reference": "a47689e703d63a2e5f09038c9cc74747ef302ccb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/0dcc3ea1c3867286e3695310521472b0e2671c30",
-                "reference": "0dcc3ea1c3867286e3695310521472b0e2671c30",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/a47689e703d63a2e5f09038c9cc74747ef302ccb",
+                "reference": "a47689e703d63a2e5f09038c9cc74747ef302ccb",
                 "shasum": ""
             },
             "require": {
@@ -1508,7 +1388,7 @@
                 }
             ],
             "description": "Display subpages in a flexible table",
-            "time": "2021-01-06T16:00:41+00:00"
+            "time": "2021-01-25T17:16:10+00:00"
         },
         {
             "name": "symfony/css-selector",

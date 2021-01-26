@@ -35,11 +35,6 @@ tabs:
                 type: date
                 time: true
                 default: now
-              autopublish:
-                label: Autopublish on
-                type: date
-                time: true
-                default: now
               author:
                 type: users
                 multiple: false
@@ -48,7 +43,6 @@ tabs:
               related:
                 label: Related articles
                 type: pages
-                query: page.siblings(false)
               files:
                 type: files
                 headline: Files
