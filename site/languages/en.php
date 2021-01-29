@@ -20,6 +20,7 @@ return [
     'olderpost' => 'Older posts',
     'newerpost' => 'Newer posts',
     'supportme' => 'Support me',
-    'search' => 'Search'
+    'search' => 'Search',
+    'publish' => 'Published on:'
    ]
 ];

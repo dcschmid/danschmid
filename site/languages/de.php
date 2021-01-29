@@ -21,6 +21,7 @@ return [
     'olderpost' => 'Ältere Artikel',
     'newerpost' => 'Neuere Artikel',
     'supportme' => 'Unterstütze mich',
-    'search' => 'Suche'
+    'search' => 'Suche',
+    'publish' => 'Veröffentlicht am:'
   ]
 ];

@@ -3,6 +3,8 @@
 <article class="article">
   <h1 class="article__headline"><?= $page->title()->html() ?></h1>
 
+  <?= t('publish') ?> <?= $page->date()->toDate('d.m.Y H:i') ?>
+
   <?= $page->text()->kt() ?>
 
   <?php if($author = $page->author()->toUser()): ?>
