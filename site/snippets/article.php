@@ -3,7 +3,6 @@
     <?php if($image = $article->cover()->toFile()): ?>
       <img src="<?= $image->placeholderUri() ?>" data-src="<?= $image->url() ?>" data-lazyload alt="<?= $image->alt() ?>">
     <?php endif ?>
-    <h1 class="card__title"><?= $article->title()->html() ?></h1>
     <div class="card__body">
       <?= $article->metadescription()->kirbytext() ?>
     </div>

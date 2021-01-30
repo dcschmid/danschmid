@@ -3,6 +3,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-title" content="Danschmid">
+    <meta name="application-name" content="Danschmid">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+    <meta name="google-site-verification" content="4bmLFItjVQHupItFYJ7ex2qn1BkLf9GxQXBq_HTiOcU" />
     <?= $page->metaTags() ?>
     <?= $page->headLinkAlternates(); ?>
     <?= mix('/css/main.css') ?>
@@ -20,10 +25,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-    <meta name="apple-mobile-web-app-title" content="Danschmid">
-    <meta name="application-name" content="Danschmid">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="theme-color" content="#000000">
   </head>
   <body>
     <?php snippet('svgsprite') ?>

@@ -1,17 +1,19 @@
 <?php snippet('header') ?>
 
-<form>
-  <input type="search" name="q" value="<?= html($query) ?>">
-  <input type="submit" value="Search">
-</form>
-
-<ul>
+<div class="search">
+  <form class="search__form">
+    <input class="search__input" type="search" name="q" value="<?= html($query) ?>">
+    <input class="search__btn" type="submit" value="<?= t('search') ?>">
+  </form>
   <?php foreach ($results as $result): ?>
-  <li>
-    <a href="<?= $result->url() ?>">
-      <?= $result->title() ?>
-    </a>
-  </li>
+      <a class="search__link" href="<?= $result->url() ?>">
+        <div class="search__item">
+          <?php if($image = $result->cover()->toFile()): ?>
+            <img class="search__image" src="<?= $image->placeholderUri() ?>" data-src="<?= $image->url() ?>" data-lazyload alt="<?= $image->alt() ?>">
+          <?php endif ?>
+            <div class="search__text"><?= $result->metadescription()->kirbytext() ?></div>
+        </div>
+      </a>
   <?php endforeach ?>
 </ul>
 
