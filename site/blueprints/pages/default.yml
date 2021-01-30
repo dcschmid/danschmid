@@ -17,7 +17,6 @@ tabs:
               related:
                 label: Related articles
                 type: pages
-                query: page.siblings(false)
   seo:
     columns:
       - width: 1/2
