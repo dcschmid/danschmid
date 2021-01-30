@@ -1,3 +1,20 @@
+# [1.1.0](https://github.com/dcschmid/danschmid/compare/v1.0.0...v1.1.0) (2021-01-30)
+
+
+### Bug Fixes
+
+* add date to article ([8c95ae6](https://github.com/dcschmid/danschmid/commit/8c95ae6ef6ad3d93fe80bbc16ec4db4287ecf2df))
+* add gogle site verification ([6749487](https://github.com/dcschmid/danschmid/commit/6749487cf27df52b4fcac4426de0a2a93b1712be))
+* fix related articles on default pages ([1d00701](https://github.com/dcschmid/danschmid/commit/1d00701db5d509365b893d32edd399c1327eddec))
+* improved related articles styles ([0149c69](https://github.com/dcschmid/danschmid/commit/0149c69cb87f438a5a2682779fddd68f1aa2d782))
+
+
+### Features
+
+* search styles ([6d9ede2](https://github.com/dcschmid/danschmid/commit/6d9ede275c9ece0a6185c4a5c3b1fbc6f163661f))
+
+
+
 # [1.0.0](https://github.com/dcschmid/danschmid/compare/v0.9.0...v1.0.0) (2021-01-26)
 
 
