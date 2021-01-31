@@ -73,6 +73,46 @@ return [
                     'url' => $page->url()
                 ]
             ],
+            'default' => [
+                'title' => $page->title(),
+                'meta' => [
+                    'description' => $page->metadescription(),
+                    'robots' => $page->metatags(),
+                    'article:published_time' => $page->date()->toDate('Y-m-d'),
+                    'article:modified_time' => $page->modified('Y-m-d'),
+                ],
+                'link' => [
+                    'canonical' => $page->url()
+                ],
+                'og' => [
+                    'title' => $page->title(),
+                    'type' => 'article',
+                    'site_name' => 'Danschmid',
+                    'url' => $page->url(),
+                    'image' => ($page->cover() !== null && $page->cover()->toFile() !== null) ? $page->cover()->toFile()->url() : '',
+                    'article:published_time' => $page->date()->toDate('Y-m-d'),
+                    'article:modified_time' => $page->modified('Y-m-d'),
+                ],
+                'twitter' => [
+                    'card' => 'summary_large_image',
+                    'site' => '@dcschmid1',
+                    'title' => $page->title(),
+                    'description' => $page->metadescription(),
+                    'image' => ($page->cover() !== null && $page->cover()->toFile() !== null) ? $page->cover()->toFile()->url() : '',
+                ],
+                'json-ld' => [
+                    'NewsArticle' => [
+                        'headline' => $page->title(),
+                        'datePublished' => $page->date()->toDate('Y-m-d'),
+                        'description' => $page->metadescription(),
+                        'image' => [
+                            '@type' => 'ImageObject',
+                            'url' => ($page->cover() !== null && $page->cover()->toFile() !== null) ? $page->cover()->toFile()->url() : '',
+                        ],
+                        'articleBody' => $page->text()->kirbytext(),
+                    ]
+                ]
+            ],
             'article' => [
                 'title' => $page->title(),
                 'meta' => [
