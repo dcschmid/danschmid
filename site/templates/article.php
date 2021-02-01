@@ -17,8 +17,8 @@
 
   <?php snippet('socialshare') ?>
 
-  <?php commentions('grouped') ?>
   <?php commentions('form') ?>
+  <?php commentions('grouped') ?>
 </article>
 
 
