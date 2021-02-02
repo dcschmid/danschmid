@@ -2,7 +2,6 @@
 
 .commentions-feedback {
   margin: 2rem auto;
-
 }
 
 .commentions-feedback p {
@@ -91,12 +90,15 @@
 }
 
 .commentions-list > ul {
- padding: 0;
+  padding: 0;
   list-style: none;
 }
 
 .commentions-list > ul > li {
   margin-bottom: 2em;
+  padding: 0 1.5rem;
+  border: 1px solid #a3abba;
+  border-radius: 0.25rem;
 }
 
 .commentions-list > .commentions-list-reactions {
@@ -117,6 +119,11 @@
 }
 
 .commentions-list-date {
-  margin-top: 0;
+  margin: 0.5rem 0;
   font-size: 80%;
+}
+
+#commentions-form-webmention,
+#commentions-form-webmention + form {
+  display: none;
 }
