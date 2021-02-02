@@ -7,22 +7,18 @@
 
   <?= $page->text()->kt() ?>
 
-  <?php if($author = $page->author()->toUser()): ?>
-    <?php snippet('author', ['author' => $author]) ?>
-  <?php endif ?>
-
   <?php
     $related = $page->related()->toPages();
     if ($related->count() > 0):
-?>
+  ?>
     <h2 class="related__headline">Related articles</h2>
     <?php snippet('related', ['related' => $related]) ?>
   <?php endif ?>
 
   <?php snippet('socialshare') ?>
 
-  <?php commentions('grouped') ?>
   <?php commentions('form') ?>
+  <?php commentions('grouped') ?>
 </article>
 
 

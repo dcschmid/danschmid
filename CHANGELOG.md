@@ -1,3 +1,21 @@
+# [1.2.0](https://github.com/dcschmid/danschmid/compare/v1.1.0...v1.2.0) (2021-02-02)
+
+
+### Bug Fixes
+
+* add related articles to default template ([9590a00](https://github.com/dcschmid/danschmid/commit/9590a000d50f9de07d4d8bc8c6f763a7fe7dfd5e))
+* better commention styles ([979f9dd](https://github.com/dcschmid/danschmid/commit/979f9dd9b1775373832d11ae7c377cf595d9b105))
+* remove authors from article ([40c1c43](https://github.com/dcschmid/danschmid/commit/40c1c430d5058efe767b101298d5674926857642))
+* set correct feed language ([ab49736](https://github.com/dcschmid/danschmid/commit/ab49736530b383cc992e0495918cea2fcdb5c1d8))
+* shift comments form above comments ([39074b4](https://github.com/dcschmid/danschmid/commit/39074b4cafad34b46efa4c8156317c243281d042))
+
+
+### Features
+
+* add cover image and meta-tags to default template ([dc770c1](https://github.com/dcschmid/danschmid/commit/dc770c1c2cf1e2c2bc4c5cf0cb5aea2b18370d76))
+
+
+
 # [1.1.0](https://github.com/dcschmid/danschmid/compare/v1.0.0...v1.1.0) (2021-01-30)
 
 
