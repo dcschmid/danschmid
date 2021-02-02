@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/dcschmid/danschmid/compare/v1.2.0...v1.2.1) (2021-02-02)
+
+
+### Bug Fixes
+
+* rss multilanguage feed ([10a052f](https://github.com/dcschmid/danschmid/commit/10a052f58010b50ea5c1cb3308cb6babf7a26140))
+
+
+
 # [1.2.0](https://github.com/dcschmid/danschmid/compare/v1.1.0...v1.2.0) (2021-02-02)
 
 
