@@ -50,7 +50,10 @@ return [
                     'description' => 'Read the latest news from Danschmid',
                     'link'        => 'blog'
                 ];
-                $feed = page('blog')->children()->listed()->flip()->limit(10)->feed($options);
+                $feed = page('blog')->children()->listed()->flip()->filter(function ($child) {
+                    return $child->content(kirby()->language()->code())->text()->isNotEmpty();
+                })->limit(10)->feed($options);
+
                 return $feed;
             }
         ]
