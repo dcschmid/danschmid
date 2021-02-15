@@ -5,7 +5,7 @@ return function($page) {
   // fetch the basic set of pages
   $articles = page('blog')->children()->listed()->flip()->filter(function ($child) {
     return $child->content(kirby()->language()->code())->text()->isNotEmpty();
-  })->paginate(10);
+  })->paginate(9);
 
   // fetch all tags
   $tags = $articles->pluck('tags', ',', true);
