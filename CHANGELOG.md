@@ -1,3 +1,16 @@
+## [1.2.2](https://github.com/dcschmid/danschmid/compare/v1.2.1...v1.2.2) (2021-02-15)
+
+
+### Bug Fixes
+
+* pagination length ([92d4c9f](https://github.com/dcschmid/danschmid/commit/92d4c9fef53967ae0a92593aa6762bf70f9f2922))
+
+
+
+## [1.2.2](https://github.com/dcschmid/danschmid/compare/v1.2.1...v1.2.2) (2021-02-15)
+
+
+
 ## [1.2.1](https://github.com/dcschmid/danschmid/compare/v1.2.0...v1.2.1) (2021-02-02)
 
 
