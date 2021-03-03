@@ -47,8 +47,6 @@ tags.temp
 vendor
 node_modules
 
-site/plugins
-
 content
 assets/js
 assets/css
