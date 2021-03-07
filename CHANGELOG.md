@@ -1,3 +1,18 @@
+# [1.3.0](https://github.com/dcschmid/danschmid/compare/v1.2.1...v1.3.0) (2021-03-07)
+
+
+### Bug Fixes
+
+* pagination length ([92d4c9f](https://github.com/dcschmid/danschmid/commit/92d4c9fef53967ae0a92593aa6762bf70f9f2922))
+* some style fixes for search and related item ([569cfb4](https://github.com/dcschmid/danschmid/commit/569cfb453ad9f8c3975e049d5fe382547532c410))
+
+
+### Features
+
+* upgrade and improve laravel mix ([754ca40](https://github.com/dcschmid/danschmid/commit/754ca40a27d5179ed03b58d891833b3843319f34))
+
+
+
 ## [1.2.2](https://github.com/dcschmid/danschmid/compare/v1.2.1...v1.2.2) (2021-02-15)
 
 
