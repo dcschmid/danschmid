@@ -1,0 +1,44 @@
+{
+  "name": "johannschopplich/kirby-highlighter",
+  "description": "Server-side syntax highlighting for KirbyText",
+  "type": "kirby-plugin",
+  "keywords": [
+    "kirby",
+    "highlight",
+    "highlighter",
+    "hljs"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johann Schopplich",
+      "email": "pkg@johannschopplich.com",
+      "homepage": "https://johannschopplich.com"
+    }
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.1",
+    "scrivo/highlight.php": "^9.18",
+    "symfony/polyfill-php80": "^1.20"
+  },
+  "require-dev": {
+    "getkirby/cms": "^3.0",
+    "phpunit/phpunit": "^9.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "KirbyExtended\\": "classes/KirbyExtended/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "dist": "composer install --no-dev --optimize-autoloader"
+  },
+  "extra": {
+    "kirby-cms-path": false
+  }
+}
