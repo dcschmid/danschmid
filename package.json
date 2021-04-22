@@ -14,25 +14,25 @@
   },
   "dependencies": {
     "babel-plugin-prismjs": "^2.0.1",
-    "laravel-mix": "^6.0.0",
+    "laravel-mix": "^6.0.18",
     "lozad": "^1.16.0",
     "postcss-custom-properties": "^11.0.0",
-    "stylelint": "^13.8.0",
+    "stylelint": "^13.12.0",
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-formatter-stats": "^0.4.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.0.1",
-    "@commitlint/config-conventional": "^12.0.1",
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "browser-sync": "^2.26.12",
     "browser-sync-webpack-plugin": "^2.0.1",
     "conventional-changelog-cli": "^2.1.1",
     "cross-env": "^7.0.2",
-    "postcss": "^8.1",
+    "postcss": "^8.2.12",
     "resolve-url-loader": "^3.1.0",
-    "sass": "^1.26.11",
+    "sass": "^1.32.11",
     "sass-loader": "^11.0.1",
     "vue-template-compiler": "^2.6.12"
   }

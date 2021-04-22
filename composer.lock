@@ -124,16 +124,16 @@
         },
         {
             "name": "diverently/laravel-mix-kirby",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Diverently/laravel-mix-kirby.git",
-                "reference": "a55afcf4767cc6303ff3deffd877eef1498ae82b"
+                "reference": "91fe17d6634083cab9417c4e9477021554851aa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Diverently/laravel-mix-kirby/zipball/a55afcf4767cc6303ff3deffd877eef1498ae82b",
-                "reference": "a55afcf4767cc6303ff3deffd877eef1498ae82b",
+                "url": "https://api.github.com/repos/Diverently/laravel-mix-kirby/zipball/91fe17d6634083cab9417c4e9477021554851aa7",
+                "reference": "91fe17d6634083cab9417c4e9477021554851aa7",
                 "shasum": ""
             },
             "require": {
@@ -151,11 +151,7 @@
                 }
             ],
             "description": "Laravel Mix helper for the Kirby CMS",
-            "support": {
-                "issues": "https://github.com/Diverently/laravel-mix-kirby/issues",
-                "source": "https://github.com/Diverently/laravel-mix-kirby/tree/1.4.0"
-            },
-            "time": "2020-08-11T09:01:16+00:00"
+            "time": "2021-04-09T12:38:46+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -391,16 +387,16 @@
         },
         {
             "name": "johannschopplich/kirby-blurry-placeholder",
-            "version": "v1.1.4",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johannschopplich/kirby-blurry-placeholder.git",
-                "reference": "1a3a85d15d94a9a7f776e189aebd4b4622a988a5"
+                "reference": "eae815f529fee70cf421e884c922d8321facd75e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johannschopplich/kirby-blurry-placeholder/zipball/1a3a85d15d94a9a7f776e189aebd4b4622a988a5",
-                "reference": "1a3a85d15d94a9a7f776e189aebd4b4622a988a5",
+                "url": "https://api.github.com/repos/johannschopplich/kirby-blurry-placeholder/zipball/eae815f529fee70cf421e884c922d8321facd75e",
+                "reference": "eae815f529fee70cf421e884c922d8321facd75e",
                 "shasum": ""
             },
             "require": {
@@ -432,11 +428,7 @@
                 "placeholder",
                 "seo"
             ],
-            "support": {
-                "issues": "https://github.com/johannschopplich/kirby-blurry-placeholder/issues",
-                "source": "https://github.com/johannschopplich/kirby-blurry-placeholder/tree/v1.1.4"
-            },
-            "time": "2020-12-24T16:55:20+00:00"
+            "time": "2021-03-04T20:57:11+00:00"
         },
         {
             "name": "johannschopplich/kirby-highlighter",
@@ -495,12 +487,12 @@
             "version": "1.2",
             "source": {
                 "type": "git",
-                "url": "https://gitlab.com/kirbyzone/sitemapper.git",
+                "url": "https://github.com/kirbyzone/sitemapper.git",
                 "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/kirbyzone%2Fsitemapper/repository/archive.zip?sha=de48a9ace7f7ab6366c0245cc43f30954cacd296",
+                "url": "https://api.github.com/repos/kirbyzone/sitemapper/zipball/de48a9ace7f7ab6366c0245cc43f30954cacd296",
                 "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296",
                 "shasum": ""
             },
@@ -1308,16 +1300,16 @@
         },
         {
             "name": "sylvainjule/pagetable",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-pagetable.git",
-                "reference": "a47689e703d63a2e5f09038c9cc74747ef302ccb"
+                "reference": "ea23cb5326bf881119ad69498d12d6dc0fc5958d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/a47689e703d63a2e5f09038c9cc74747ef302ccb",
-                "reference": "a47689e703d63a2e5f09038c9cc74747ef302ccb",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/ea23cb5326bf881119ad69498d12d6dc0fc5958d",
+                "reference": "ea23cb5326bf881119ad69498d12d6dc0fc5958d",
                 "shasum": ""
             },
             "require": {
@@ -1338,7 +1330,7 @@
                 }
             ],
             "description": "Display subpages in a flexible table",
-            "time": "2021-01-25T17:16:10+00:00"
+            "time": "2021-03-10T14:24:38+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
