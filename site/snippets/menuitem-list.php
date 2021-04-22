@@ -30,7 +30,7 @@
 
     <?php foreach($kirby->languages() as $language): ?>
       <li class="nav__item <?php e($kirby->language() == $language, 'active') ?>">
-        <a class="nav__link" href="<?php e($page->content($language->code())->language() != $site->language($language->code()), page('blog')->url($language->code()), $page->url($language->code()))?>">
+        <a class="nav__link" href="<?php e($page->content($language->code())->language() != $site->language($language->code()), $page->url($language->code()))?>">
           <?php echo $language->code(); ?>
         </a>
       </li>

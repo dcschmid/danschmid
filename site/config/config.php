@@ -4,7 +4,7 @@ return [
         'install' => true
     ],
     'debug'  => true,
-    'home' => 'blog',
+    'home' => 'home',
     'languages' => true,
     'markdown' => [
         'extra' => true
