@@ -17,8 +17,9 @@
 
   <?php snippet('socialshare') ?>
 
-  <?php commentions('form') ?>
-  <?php commentions('grouped') ?>
+  <?php snippet('komments/webmention-splitted'); ?>
+  <?php snippet('komments/kommentform'); ?>
+
 </article>
 
 

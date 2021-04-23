@@ -12,7 +12,6 @@
     <?= $page->headLinkAlternates(); ?>
     <?= mix('/css/main.css') ?>
     <?= snippet('matomo'); ?>
-    <?=commentions('endpoints'); ?>
 
     <link rel="me" href="https://twitter.com/dcschmid1">
     <link rel="me" href="https://github.com/dcschmid">
@@ -32,4 +31,3 @@
       <?php snippet('mainnav') ?>
     </header>
     <main class="main-body">
-    <?php commentions('feedback') ?>

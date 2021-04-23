@@ -32,13 +32,9 @@ return [
         'doOptimizeViaHtmlDomParser' => true, // set true/false or remove line to default
         'doRemoveSpacesBetweenTags'  => false // set true/false or remove line to default
     ],
-    'sgkirby.commentions.templatesWithComments' => ['article'],
-    'sgkirby.commentions.templatesWithWebmentions' => ['article'],
-    'sgkirby.commentions.secret' => 'Commentions2020',
-    'sgkirby.commentions.defaultstatus' => [
-        'comment'   => 'pending',
-        'like'      => 'approved',
-    ],
+    'mauricerenck.tratschtante.secret' => 't4bDVZZ4yGfhSuQe',
+    'mauricerenck.komments.komment-auto-publish' => true,
+    'mauricerenck.komments.ping-archiveorg' => true,
     'routes' => [
         [
             'pattern' => 'feed',

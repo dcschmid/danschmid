@@ -25,11 +25,12 @@
         "sylvainjule/matomo": "^1.0",
         "reh/kirby-seo-preview-section": "^1.0",
         "pedroborges/kirby-meta-tags": "^2.0",
-        "sgkirby/commentions": "^1.0",
         "kirbyzone/sitemapper": "^1.2",
         "johannschopplich/kirby-blurry-placeholder": "^1.1",
         "bnomei/kirby3-feed": "^1.3",
-        "johannschopplich/kirby-highlighter": "^1.3"
+        "johannschopplich/kirby-highlighter": "^1.3",
+        "mauricerenck/komments": "^0.10.3",
+        "mauricerenck/tratschtante": "^1.0"
     },
     "config": {
         "optimize-autoloader": true
