@@ -19,6 +19,12 @@
     <link rel="pingback" href="https://webmention.io/danschmid.de/xmlrpc" />
     <link rel="alternate" type="application/rss+xml" title="Latest articles" href="<?= site()->url() ?>/feed"/>
 
+    <?php foreach($kirby->languages() as $language): ?>
+      <?php if ($page->content($language)->text()->isNotEmpty()): ?>
+        <link rel="alternate" hreflang="<?php echo $language->code() ?>" href="<?= $page->url($language->code()) ?>">
+      <?php endif ?>
+    <?php endforeach ?>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
