@@ -51,11 +51,3 @@ tabs:
         sections:
           sidebar:
             type: matomo-sidebar
-  commentions:
-    sections:
-      fields:
-        type: fields
-        fields:
-          kommentsPending:
-            type: kommentsPending
-            label: Pending Komments
