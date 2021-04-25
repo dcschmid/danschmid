@@ -38,8 +38,27 @@
     grid-area: authorsite;
   }
 
+  textarea[name='komment'],
+  input[name='email'],
+  input[name='author'],
+  input[type='url'] {
+    width: 100%;
+    padding: 0.7em 0.5em;
+    color: var(--font-color);
+    font-size: 1em;
+    font-family: var(--font-stack);
+    background-color: var(--background-color);
+    border: 1px solid var(--font-color);
+    border-radius: 0;
+  }
+
   input[type='submit'] {
     grid-area: button;
+    padding: 12px;
+    color: var(--invert-font-color);
+    text-decoration: none;
+    background-color: var(--font-color);
+    border: 1px solid var(--invert-font-color);
   }
 
   .share {
@@ -64,15 +83,6 @@
   &.spam-indicator {
     grid-area: spamindicator;
     width: 100%;
-  }@media screen and (prefers-reduced-motion: reduce) {
-    .progress {
-      display: inline-block;
-      width: 0%;
-      height: 5px;
-      background: red;
-      transition: none;
-      transition-timing-function: linear;
-    }
   }
 
   .progress {
@@ -82,6 +92,10 @@
     background: red;
     transition: width 1s, background 2s, height 0.2s;
     transition-timing-function: linear;
+
+    @media screen and (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
   }
 
   .progress.orange {
@@ -140,15 +154,6 @@
 
   .loading-invisible {
     display: none;
-  }@media screen and (prefers-reduced-motion: reduce) {
-    .sk-cube-grid .sk-cube {
-      float: left;
-      width: 33%;
-      height: 33%;
-      background-color: var(--color-card-text);
-      animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-      animation: none;
-    }
   }
 
   .sk-cube-grid .sk-cube {
@@ -158,6 +163,10 @@
     background-color: var(--color-card-text);
     animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
     animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+
+    @media screen and (prefers-reduced-motion: reduce) {
+      animation: none;
+    }
   }
 
   .sk-cube-grid .sk-cube1 {
@@ -240,7 +249,6 @@
 
   .author-action {
     grid-area: action;
-    color: grey;
     line-height: 40px;
   }
 
@@ -289,8 +297,27 @@
   }
 
   .kommentReply {
-    display: block;
-    text-align: right;
+    display: inline-block;
+    align-items: center;
+    margin: 5px;
+    padding: 12px;
+    color: var(--invert-font-color);
+    text-decoration: none;
+    background-color: var(--font-color);
+    border: 1px solid var(--invert-font-color);
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--invert-font-color);
+      text-decoration: none;
+      background-color: var(--secondary-color);
+      transition: none;
+
+      @media screen and (prefers-reduced-motion: reduce) {
+        transition: none;
+      }
+    }
   }
 }
 
