@@ -14,7 +14,7 @@
   min-height: 50px;
   margin: 0 auto;
   padding: 0;
-  background-color: #111;
+  background-color: var(--nav-bg);
   box-shadow: 0 5px 15px 0 hsla(0, 0%, 0%, 0.15);
   transform-style: preserve-3d;
   backface-visibility: hidden;
@@ -130,7 +130,7 @@
     position: relative;
     width: 60%;
     height: 100%;
-    background: #111;
+    background: var(--nav-bg);
 
     @media all and (min-width: $desktop-breakpoint) {
       display: flex;
@@ -176,7 +176,7 @@
     flex-basis: 100%;
     margin: 0;
     padding: 0.75rem 1rem 0.5rem 1.5rem;
-    color: #cfcfcf;
+    color: var(--font-color);
     font-size: 1rem;
     text-decoration: none;
     background: transparent;
@@ -202,9 +202,9 @@
   &__link:hover,
   &__link:active,
   &__link:focus {
-    color: #222225;
+    color: var(--invent-font-color);
     text-decoration: none;
-    background-color: #62c4ff;
+    background-color: var(--primary-color);
   }
 
   &__link--name {
@@ -214,7 +214,7 @@
     justify-content: center;
     margin: 0;
     padding: 0.5rem;
-    color: #62c4ff;
+    color: var(--primary-color);
     font-weight: 600;
     text-decoration: none;
   }
@@ -222,8 +222,8 @@
   &__link--name:hover,
   &__link--name:active,
   &__link--name:focus {
-    color: #222225;
+    color: var(--invent-font-color);
     text-decoration: none;
-    background-color: #62c4ff;
+    background-color: var(--primary-color);
   }
 }

@@ -12,16 +12,6 @@
     text-decoration: none;
     background-color: var(--font-color);
     border: 1px solid var(--invert-font-color);
-    @media screen and (prefers-reduced-motion: reduce) {
-      &:hover,
-      &:active,
-      &:focus {
-        color: var(--invert-font-color);
-        text-decoration: none;
-        background-color: var(--secondary-color);
-        transition: none;
-      }
-    }
 
     &:hover,
     &:active,
@@ -30,11 +20,16 @@
       text-decoration: none;
       background-color: var(--secondary-color);
       transition: background-color 200ms linear;
+
+      @media screen and (prefers-reduced-motion: reduce) {
+        transition: none;
+      }
     }
 
     svg {
       width: 1.5rem;
       height: 1.5rem;
+      fill: var(--invert-font-color);
 
       @media screen and (min-width: $tablet-breakpoint) {
         width: 2rem;
