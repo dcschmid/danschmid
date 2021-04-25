@@ -6,12 +6,12 @@
     <input class="search__btn" type="submit" value="<?= t('search') ?>">
   </form>
   <?php foreach ($results as $result): ?>
-      <a class="search__link" href="<?= $result->url() ?>">
-        <div class="search__item">
+      <a class="card__link" href="<?= $result->url() ?>">
+        <div class="card__item">
           <?php if($image = $result->cover()->toFile()): ?>
-            <img class="search__image" src="<?= $image->placeholderUri() ?>" data-src="<?= $image->url() ?>" data-lazyload alt="<?= $image->alt() ?>">
+            <img class="card__image" src="<?= $image->placeholderUri() ?>" data-src="<?= $image->url() ?>" data-lazyload alt="<?= $image->alt() ?>">
           <?php endif ?>
-            <div class="search__text"><?= $result->metadescription()->kirbytext() ?></div>
+            <div class="card__text"><?= $result->metadescription()->kirbytext() ?></div>
         </div>
       </a>
   <?php endforeach ?>
