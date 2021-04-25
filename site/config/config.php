@@ -33,7 +33,7 @@ return [
         'doRemoveSpacesBetweenTags'  => false // set true/false or remove line to default
     ],
     'mauricerenck.tratschtante.secret' => 't4bDVZZ4yGfhSuQe',
-    'mauricerenck.komments.komment-auto-publish' => true,
+    'mauricerenck.komments.komment-auto-publish' => false,
     'mauricerenck.komments.ping-archiveorg' => true,
     'routes' => [
         [
