@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/dcschmid/danschmid/compare/v1.4.0...v1.3.0) (2021-04-25)
+
+
+### Bug Fixes
+
+* remove unused action ([366cc7e](https://github.com/dcschmid/danschmid/commit/366cc7e04ba6069c09a6ea9a40657165702f718b))
+
+
+
 # [1.3.0](https://github.com/dcschmid/danschmid/compare/v1.2.1...v1.3.0) (2021-03-07)
 
 
