@@ -1,3 +1,12 @@
+## [1.4.3](https://github.com/dcschmid/danschmid/compare/v1.4.2...v1.4.3) (2021-04-25)
+
+
+### Bug Fixes
+
+* activate komments moderation ([3ed7b34](https://github.com/dcschmid/danschmid/commit/3ed7b34987c4b18af65ad6dcfaeea7f925c465cd))
+
+
+
 ## [1.4.2](https://github.com/dcschmid/danschmid/compare/v1.4.1...v1.4.2) (2021-04-25)
 
 
