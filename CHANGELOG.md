@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/dcschmid/danschmid/compare/v1.4.1...v1.4.2) (2021-04-25)
+
+
+### Bug Fixes
+
+* site blueprint ([0d0cc9b](https://github.com/dcschmid/danschmid/commit/0d0cc9ba02be570cf342f4cd371bf13ab23b383b))
+
+
+
 # [1.3.0](https://github.com/dcschmid/danschmid/compare/v1.4.0...v1.3.0) (2021-04-25)
 
 
