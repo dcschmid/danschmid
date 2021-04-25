@@ -31,6 +31,9 @@ tabs:
           meta:
             type: fields
             fields:
+              kommentsPending:
+                type: kommentsPending
+                label: Pending Komments
               date:
                 type: date
                 time: true
@@ -79,5 +82,5 @@ tabs:
             defaultDescription:  page.text.blocks.html  # query (e.g: page.text.blocks.html when using the editor)
   commentions:
     sections:
-      commentions:
-        type: commentions
+      komments:
+        extends: sections/komments

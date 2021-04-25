@@ -20,6 +20,7 @@ jobs:
           cd /data/websites/danschmid
           git checkout master
           git pull
+          composer install
           yarn
           yarn prod
           service nginx restart

@@ -22,6 +22,7 @@ return [
     'newerpost' => 'Neuere Artikel',
     'supportme' => 'Unterstütze mich',
     'search' => 'Suche',
-    'publish' => 'Veröffentlicht am:'
+    'updated' => 'Letztes Update:',
+    'relatedarticles' => 'Zum Thema passende Artikel'
   ]
 ];

@@ -21,6 +21,7 @@ return [
     'newerpost' => 'Newer posts',
     'supportme' => 'Support me',
     'search' => 'Search',
-    'publish' => 'Published on:'
+    'updated' => 'Last update:',
+    'relatedarticles' => 'Related articles'
    ]
 ];

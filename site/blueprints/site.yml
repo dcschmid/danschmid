@@ -53,6 +53,9 @@ tabs:
             type: matomo-sidebar
   commentions:
     sections:
-      commentions:
-        type: commentions
-        show: pending
+      fields:
+        type: fields
+        fields:
+          kommentsPending:
+            type: kommentsPending
+            label: Pending Komments

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d8f477bbe6b85c71c286990e252a840",
+    "content-hash": "e4fb310cd6b37626fa9e35124c0978bd",
     "packages": [
         {
             "name": "bnomei/kirby3-feed",
@@ -124,16 +124,16 @@
         },
         {
             "name": "diverently/laravel-mix-kirby",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Diverently/laravel-mix-kirby.git",
-                "reference": "a55afcf4767cc6303ff3deffd877eef1498ae82b"
+                "reference": "91fe17d6634083cab9417c4e9477021554851aa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Diverently/laravel-mix-kirby/zipball/a55afcf4767cc6303ff3deffd877eef1498ae82b",
-                "reference": "a55afcf4767cc6303ff3deffd877eef1498ae82b",
+                "url": "https://api.github.com/repos/Diverently/laravel-mix-kirby/zipball/91fe17d6634083cab9417c4e9477021554851aa7",
+                "reference": "91fe17d6634083cab9417c4e9477021554851aa7",
                 "shasum": ""
             },
             "require": {
@@ -151,65 +151,7 @@
                 }
             ],
             "description": "Laravel Mix helper for the Kirby CMS",
-            "support": {
-                "issues": "https://github.com/Diverently/laravel-mix-kirby/issues",
-                "source": "https://github.com/Diverently/laravel-mix-kirby/tree/1.4.0"
-            },
-            "time": "2020-08-11T09:01:16+00:00"
-        },
-        {
-            "name": "ezyang/htmlpurifier",
-            "version": "v4.13.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "08e27c97e4c6ed02f37c5b2b20488046c8d90d75"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/08e27c97e4c6ed02f37c5b2b20488046c8d90d75",
-                "reference": "08e27c97e4c6ed02f37c5b2b20488046c8d90d75",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2"
-            },
-            "require-dev": {
-                "simpletest/simpletest": "dev-master#72de02a7b80c6bb8864ef9bf66d41d2f58f826bd"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "HTMLPurifier": "library/"
-                },
-                "files": [
-                    "library/HTMLPurifier.composer.php"
-                ],
-                "exclude-from-classmap": [
-                    "/library/HTMLPurifier/Language/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-2.1-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Edward Z. Yang",
-                    "email": "admin@htmlpurifier.org",
-                    "homepage": "http://ezyang.com"
-                }
-            ],
-            "description": "Standards compliant HTML filter written in PHP",
-            "homepage": "http://htmlpurifier.org/",
-            "keywords": [
-                "html"
-            ],
-            "support": {
-                "issues": "https://github.com/ezyang/htmlpurifier/issues",
-                "source": "https://github.com/ezyang/htmlpurifier/tree/master"
-            },
-            "time": "2020-06-29T00:56:53+00:00"
+            "time": "2021-04-09T12:38:46+00:00"
         },
         {
             "name": "filp/whoops",
@@ -390,17 +332,59 @@
             "time": "2020-12-28T12:54:39+00:00"
         },
         {
-            "name": "johannschopplich/kirby-blurry-placeholder",
-            "version": "v1.1.4",
+            "name": "indieweb/mention-client",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/johannschopplich/kirby-blurry-placeholder.git",
-                "reference": "1a3a85d15d94a9a7f776e189aebd4b4622a988a5"
+                "url": "https://github.com/indieweb/mention-client-php.git",
+                "reference": "12e3dc4b3f8f9ae82fa7a3953792bea33f59118a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johannschopplich/kirby-blurry-placeholder/zipball/1a3a85d15d94a9a7f776e189aebd4b4622a988a5",
-                "reference": "1a3a85d15d94a9a7f776e189aebd4b4622a988a5",
+                "url": "https://api.github.com/repos/indieweb/mention-client-php/zipball/12e3dc4b3f8f9ae82fa7a3953792bea33f59118a",
+                "reference": "12e3dc4b3f8f9ae82fa7a3953792bea33f59118a",
+                "shasum": ""
+            },
+            "require": {
+                "mf2/mf2": ">=0.2",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "IndieWeb": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Parecki",
+                    "email": "aaron@parecki.com",
+                    "homepage": "http://aaronparecki.com/"
+                }
+            ],
+            "description": "Client library for sending webmention and pingback notifications",
+            "homepage": "https://github.com/indieweb/mention-client-php",
+            "time": "2018-10-27T19:41:41+00:00"
+        },
+        {
+            "name": "johannschopplich/kirby-blurry-placeholder",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johannschopplich/kirby-blurry-placeholder.git",
+                "reference": "eae815f529fee70cf421e884c922d8321facd75e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johannschopplich/kirby-blurry-placeholder/zipball/eae815f529fee70cf421e884c922d8321facd75e",
+                "reference": "eae815f529fee70cf421e884c922d8321facd75e",
                 "shasum": ""
             },
             "require": {
@@ -432,11 +416,7 @@
                 "placeholder",
                 "seo"
             ],
-            "support": {
-                "issues": "https://github.com/johannschopplich/kirby-blurry-placeholder/issues",
-                "source": "https://github.com/johannschopplich/kirby-blurry-placeholder/tree/v1.1.4"
-            },
-            "time": "2020-12-24T16:55:20+00:00"
+            "time": "2021-03-04T20:57:11+00:00"
         },
         {
             "name": "johannschopplich/kirby-highlighter",
@@ -495,12 +475,12 @@
             "version": "1.2",
             "source": {
                 "type": "git",
-                "url": "https://gitlab.com/kirbyzone/sitemapper.git",
+                "url": "https://github.com/kirbyzone/sitemapper.git",
                 "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/kirbyzone%2Fsitemapper/repository/archive.zip?sha=de48a9ace7f7ab6366c0245cc43f30954cacd296",
+                "url": "https://api.github.com/repos/kirbyzone/sitemapper/zipball/de48a9ace7f7ab6366c0245cc43f30954cacd296",
                 "reference": "de48a9ace7f7ab6366c0245cc43f30954cacd296",
                 "shasum": ""
             },
@@ -706,38 +686,34 @@
             "time": "2016-12-15T09:30:02+00:00"
         },
         {
-            "name": "masterminds/html5",
-            "version": "2.7.4",
+            "name": "mauricerenck/komments",
+            "version": "0.10.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Masterminds/html5-php.git",
-                "reference": "9227822783c75406cfe400984b2f095cdf03d417"
+                "url": "https://github.com/mauricerenck/komments.git",
+                "reference": "c94ec9630bc8b88de20052a31cf727f175cb4c47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/9227822783c75406cfe400984b2f095cdf03d417",
-                "reference": "9227822783c75406cfe400984b2f095cdf03d417",
+                "url": "https://api.github.com/repos/mauricerenck/komments/zipball/c94ec9630bc8b88de20052a31cf727f175cb4c47",
+                "reference": "c94ec9630bc8b88de20052a31cf727f175cb4c47",
                 "shasum": ""
             },
             "require": {
-                "ext-ctype": "*",
-                "ext-dom": "*",
-                "ext-libxml": "*",
-                "php": ">=5.3.0"
+                "getkirby/composer-installer": "^1.1",
+                "indieweb/mention-client": "^1.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35"
+                "getkirby/cms": "^3.5"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.7-dev"
-                }
-            },
+            "type": "kirby-plugin",
             "autoload": {
                 "psr-4": {
-                    "Masterminds\\": "src"
-                }
+                    "mauricerenck\\Komments\\": "utils/"
+                },
+                "classmap": [
+                    "utils"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -745,34 +721,110 @@
             ],
             "authors": [
                 {
-                    "name": "Matt Butcher",
-                    "email": "technosophos@gmail.com"
-                },
-                {
-                    "name": "Matt Farina",
-                    "email": "matt@mattfarina.com"
-                },
-                {
-                    "name": "Asmir Mustafic",
-                    "email": "goetas@gmail.com"
+                    "name": "Maurice Renck",
+                    "email": "hello@maurice-renck.de"
                 }
             ],
-            "description": "An HTML5 parser and serializer.",
-            "homepage": "http://masterminds.github.io/html5-php",
-            "keywords": [
-                "HTML5",
-                "dom",
-                "html",
-                "parser",
-                "querypath",
-                "serializer",
-                "xml"
-            ],
-            "support": {
-                "issues": "https://github.com/Masterminds/html5-php/issues",
-                "source": "https://github.com/Masterminds/html5-php/tree/2.7.4"
+            "description": "A comment and webmention plugin for Kirby 3",
+            "time": "2021-02-19T13:08:38+00:00"
+        },
+        {
+            "name": "mauricerenck/tratschtante",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mauricerenck/tratschtante.git",
+                "reference": "6ddb295fc26f9d64ebc3437a9d7cc977b3db9333"
             },
-            "time": "2020-10-01T13:52:52+00:00"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mauricerenck/tratschtante/zipball/6ddb295fc26f9d64ebc3437a9d7cc977b3db9333",
+                "reference": "6ddb295fc26f9d64ebc3437a9d7cc977b3db9333",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.5"
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "psr-4": {
+                    "mauricerenck\\Tratschtante\\": "utils/"
+                },
+                "classmap": [
+                    "utils"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maurice Renck",
+                    "email": "hello@maurice-renck.de"
+                }
+            ],
+            "description": "Kirby Webmentions your plugins can subscribe to",
+            "time": "2021-03-19T09:05:59+00:00"
+        },
+        {
+            "name": "mf2/mf2",
+            "version": "0.4.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/microformats/php-mf2.git",
+                "reference": "00b70ee7eb7f5b0585b1bd467f6c9cbd75055d23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/microformats/php-mf2/zipball/00b70ee7eb7f5b0585b1bd467f6c9cbd75055d23",
+                "reference": "00b70ee7eb7f5b0585b1bd467f6c9cbd75055d23",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mf2/tests": "@dev",
+                "phpdocumentor/phpdocumentor": "v2.8.4",
+                "phpunit/phpunit": "4.8.*"
+            },
+            "suggest": {
+                "barnabywalters/mf-cleaner": "To more easily handle the canonical data php-mf2 gives you",
+                "masterminds/html5": "Alternative HTML parser for PHP, for better HTML5 support."
+            },
+            "bin": [
+                "bin/fetch-mf2",
+                "bin/parse-mf2"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Mf2/Parser.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC0-1.0"
+            ],
+            "authors": [
+                {
+                    "name": "Barnaby Walters",
+                    "homepage": "http://waterpigs.co.uk"
+                }
+            ],
+            "description": "A pure, generic microformats2 parser — makes HTML as easy to consume as a JSON API",
+            "keywords": [
+                "html",
+                "microformats",
+                "microformats 2",
+                "parser",
+                "semantic"
+            ],
+            "time": "2018-08-24T14:47:04+00:00"
         },
         {
             "name": "michelf/php-smartypants",
@@ -1225,50 +1277,6 @@
             "time": "2020-12-22T19:20:29+00:00"
         },
         {
-            "name": "sgkirby/commentions",
-            "version": "1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastiangreger/kirby3-commentions.git",
-                "reference": "b493c5aecfcd280546f4283acb66a0bf22f07479"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastiangreger/kirby3-commentions/zipball/b493c5aecfcd280546f4283acb66a0bf22f07479",
-                "reference": "b493c5aecfcd280546f4283acb66a0bf22f07479",
-                "shasum": ""
-            },
-            "require": {
-                "ezyang/htmlpurifier": "^4.12",
-                "getkirby/composer-installer": "^1.1",
-                "masterminds/html5": "^2.7"
-            },
-            "type": "kirby-plugin",
-            "autoload": {
-                "psr-4": {
-                    "sgkirby\\Commentions\\": "lib/"
-                },
-                "files": []
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Greger",
-                    "email": "msg@sebastiangreger.net"
-                }
-            ],
-            "description": "A versatile comment system and integrated Webmention endpoint for Kirby 3.",
-            "keywords": [
-                "kirby3",
-                "kirby3-cms",
-                "kirby3-plugin"
-            ],
-            "time": "2021-02-16T16:54:16+00:00"
-        },
-        {
             "name": "sylvainjule/matomo",
             "version": "1.0.6",
             "source": {
@@ -1308,16 +1316,16 @@
         },
         {
             "name": "sylvainjule/pagetable",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-pagetable.git",
-                "reference": "a47689e703d63a2e5f09038c9cc74747ef302ccb"
+                "reference": "ea23cb5326bf881119ad69498d12d6dc0fc5958d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/a47689e703d63a2e5f09038c9cc74747ef302ccb",
-                "reference": "a47689e703d63a2e5f09038c9cc74747ef302ccb",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-pagetable/zipball/ea23cb5326bf881119ad69498d12d6dc0fc5958d",
+                "reference": "ea23cb5326bf881119ad69498d12d6dc0fc5958d",
                 "shasum": ""
             },
             "require": {
@@ -1338,7 +1346,7 @@
                 }
             ],
             "description": "Display subpages in a flexible table",
-            "time": "2021-01-25T17:16:10+00:00"
+            "time": "2021-03-10T14:24:38+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
