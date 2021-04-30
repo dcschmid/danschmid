@@ -1,3 +1,8 @@
+## [1.4.4](https://github.com/dcschmid/danschmid/compare/v1.4.3...v1.4.4) (2021-04-30)
+
+* update dependecies and upgrade kirby version
+
+
 ## [1.4.3](https://github.com/dcschmid/danschmid/compare/v1.4.2...v1.4.3) (2021-04-25)
 
 
