@@ -69,9 +69,11 @@ To enable automatic language detection, set:
 
 | Option | Default | Description |
 | --- | --- | --- |
-| `kirby-extended.highlighter.class` | `hljs` | Style class for Highlight to be added to the `pre` element.
-| `kirby-extended.highlighter.autodetect` | `false` | Indicates if the library should define which language thinks is best. Only applies when no language was set on the KirbyText code block.
-| `kirby-extended.highlighter.languages` | `[]` | Array of language names to be auto detected. If empty, every language will be  
+| `kirby-extended.highlighter.class` | `hljs` | Style class for Highlight to be added to the `pre` element. |
+| `kirby-extended.highlighter.autodetect` | `false` | Indicates if the library should define which language thinks is best. Only applies when no language was set on the KirbyText code block. |
+| `kirby-extended.highlighter.languages` | `[]` | Array of language names to be auto-detected. If empty, every language will be auto-detectable. |
+| `kirby-extended.highlighter.line-numbering` | `false` | Indicates if the library should split up the highlighted code on each new line and wrap it in a `<span>` element. |
+| `kirby-extended.highlighter.line-numbering-class` | `hljs-code-line` | CSS class applied to highlighted code lines, respectively `<span>` elements. |
 
 ## Styling in the frontend
 
@@ -81,6 +83,24 @@ The CSS files over at the repository are maintained and new ones arrive from tim
 
 One of my favorite themes is [Night Owl by Sarah Drasner](https://github.com/highlightjs/highlight.js/blob/master/src/styles/night-owl.css).
 For example you could download the CSS file and save it in your Kirby project under `assets/css/hljs-night-owl.css`. Now you just have to include it in your template `<?= css('assets/css/hljs-night-owl.css') ?>`. Alternatively, use a CSS bundler of your choice.
+
+### Line Numbering
+
+If you choose to activate the line numbering option, you will need to include additional CSS style to display line numbering.
+
+A basic example using [pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) :
+```css
+pre.hljs .hljs-code-line {
+  counter-increment: line;
+}
+
+pre.hljs .hljs-code-line::before {
+  content: counter(line);
+  display: inline-block;
+  margin-right: 1em;
+  opacity: 0.5;
+}
+```
 
 ## Credits
 
